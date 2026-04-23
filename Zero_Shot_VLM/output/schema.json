@@ -1,0 +1,65 @@
+{
+  "task": "making an omelette from scratch",
+  "process_steps": [
+    "Gather ingredients and tools.",
+    "Crack eggs into a bowl and whisk.",
+    "Heat and oil a frying pan.",
+    "Pour beaten eggs into the hot pan and cook.",
+    "Fold the omelette in the pan.",
+    "Transfer the omelette to a plate."
+  ],
+  "objects": {
+    "Egg": {
+      "states": [
+        "whole_in_shell",
+        "cracked_in_bowl",
+        "beaten_liquid",
+        "cooking_solidifying",
+        "cooked_flat",
+        "folded_omelette"
+      ],
+      "initial_state": "whole_in_shell"
+    },
+    "Mixing Bowl": {
+      "states": [
+        "empty_clean",
+        "with_cracked_eggs",
+        "with_beaten_eggs",
+        "empty_with_residue"
+      ],
+      "initial_state": "empty_clean"
+    },
+    "Whisk": {
+      "states": [
+        "clean_dry",
+        "with_egg_residue"
+      ],
+      "initial_state": "clean_dry"
+    },
+    "Frying Pan": {
+      "states": [
+        "empty_clean_cold",
+        "oiled_hot",
+        "with_liquid_eggs",
+        "with_cooking_omelette",
+        "with_folded_omelette",
+        "empty_with_residue"
+      ],
+      "initial_state": "empty_clean_cold"
+    },
+    "Spatula": {
+      "states": [
+        "clean_dry",
+        "with_egg_residue"
+      ],
+      "initial_state": "clean_dry"
+    },
+    "Plate": {
+      "states": [
+        "empty_clean",
+        "with_omelette"
+      ],
+      "initial_state": "empty_clean"
+    }
+  }
+}

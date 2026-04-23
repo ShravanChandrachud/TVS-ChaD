@@ -1,0 +1,32 @@
+MEMORY BANK - making an omelette from scratch
+Generated: 2026-04-22T22:40:47.927004
+Instances tracked: 5
+Total transitions: 9
+
+---------------------------------------------------------------------------------------------
+Time     | Object       | New State             | Prev State          | Frame    | Confidence
+---------------------------------------------------------------------------------------------
+0:01     | Egg_1        | cracked_in_bowl       | whole_in_shell      | 42       | high      
+0:10     | Egg_1        | beaten_liquid         | cracked_in_bowl     | 322      | high      
+0:21     | Frying Pan_1 | oiled_hot             | empty_clean_cold    | 630      | high      
+0:25     | Frying Pan_1 | with_liquid_eggs      | oiled_hot           | 770      | high      
+0:27     | Frying Pan_1 | with_liquid_eggs      | oiled_hot           | 812      | high      
+0:35     | Egg_1        | cooking_solidifying   | beaten_liquid       | 1064     | high      
+0:35     | Frying Pan_1 | with_cooking_omelette | with_liquid_eggs    | 1064     | high      
+1:17     | Egg_1        | cooked_flat           | cooking_solidifying | 2310     | high      
+1:18     | Egg_1        | folded_omelette       | cooked_flat         | 2338     | high      
+---------------------------------------------------------------------------------------------
+
+POSITION TABLE (final snapshot)
+------------------------------------------------------------
+  Egg_1                | state: folded_omelette
+                       | at: "on Plate_1"
+  Frying Pan_1         | state: with_cooking_omelette
+                       | at: "on stovetop"
+  Whisk_1              | state: clean_dry
+                       | at: "held above Frying Pan_1"
+  Spatula_1            | state: clean_dry
+                       | at: "in Frying Pan_1"
+  Plate_1              | state: empty_clean
+                       | at: "next to Frying Pan_1"
+------------------------------------------------------------

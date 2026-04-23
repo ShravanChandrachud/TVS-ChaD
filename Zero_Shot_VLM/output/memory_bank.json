@@ -1,0 +1,203 @@
+{
+  "task": "making an omelette from scratch",
+  "generated_at": "2026-04-22T22:40:47.918143",
+  "schema": {
+    "task": "making an omelette from scratch",
+    "process_steps": [
+      "Gather ingredients and tools.",
+      "Crack eggs into a bowl and whisk.",
+      "Heat and oil a frying pan.",
+      "Pour beaten eggs into the hot pan and cook.",
+      "Fold the omelette in the pan.",
+      "Transfer the omelette to a plate."
+    ],
+    "objects": {
+      "Egg": {
+        "states": [
+          "whole_in_shell",
+          "cracked_in_bowl",
+          "beaten_liquid",
+          "cooking_solidifying",
+          "cooked_flat",
+          "folded_omelette"
+        ],
+        "initial_state": "whole_in_shell"
+      },
+      "Mixing Bowl": {
+        "states": [
+          "empty_clean",
+          "with_cracked_eggs",
+          "with_beaten_eggs",
+          "empty_with_residue"
+        ],
+        "initial_state": "empty_clean"
+      },
+      "Whisk": {
+        "states": [
+          "clean_dry",
+          "with_egg_residue"
+        ],
+        "initial_state": "clean_dry"
+      },
+      "Frying Pan": {
+        "states": [
+          "empty_clean_cold",
+          "oiled_hot",
+          "with_liquid_eggs",
+          "with_cooking_omelette",
+          "with_folded_omelette",
+          "empty_with_residue"
+        ],
+        "initial_state": "empty_clean_cold"
+      },
+      "Spatula": {
+        "states": [
+          "clean_dry",
+          "with_egg_residue"
+        ],
+        "initial_state": "clean_dry"
+      },
+      "Plate": {
+        "states": [
+          "empty_clean",
+          "with_omelette"
+        ],
+        "initial_state": "empty_clean"
+      }
+    }
+  },
+  "current_step": "Transfer the omelette to a plate.",
+  "instances": {
+    "Egg_1": {
+      "instance_id": "Egg_1",
+      "object_class": "Egg",
+      "description": "on Plate_1",
+      "current_state": "folded_omelette",
+      "transitions": [
+        {
+          "instance_id": "Egg_1",
+          "object_class": "Egg",
+          "from_state": "whole_in_shell",
+          "to_state": "cracked_in_bowl",
+          "timestamp": 1.401,
+          "frame_number": 42,
+          "confidence": "high",
+          "reason": "Egg is actively being cracked into the bowl."
+        },
+        {
+          "instance_id": "Egg_1",
+          "object_class": "Egg",
+          "from_state": "cracked_in_bowl",
+          "to_state": "beaten_liquid",
+          "timestamp": 10.744,
+          "frame_number": 322,
+          "confidence": "high",
+          "reason": "The egg contents are now visibly mixed and liquid in the bowl."
+        },
+        {
+          "instance_id": "Egg_1",
+          "object_class": "Egg",
+          "from_state": "beaten_liquid",
+          "to_state": "cooking_solidifying",
+          "timestamp": 35.502,
+          "frame_number": 1064,
+          "confidence": "high",
+          "reason": "Egg liquid is actively being poured from a bowl into the hot pan."
+        },
+        {
+          "instance_id": "Egg_1",
+          "object_class": "Egg",
+          "from_state": "cooking_solidifying",
+          "to_state": "cooked_flat",
+          "timestamp": 77.077,
+          "frame_number": 2310,
+          "confidence": "high",
+          "reason": "The egg mixture has solidified into a flat, cooked omelette shape in the pan."
+        },
+        {
+          "instance_id": "Egg_1",
+          "object_class": "Egg",
+          "from_state": "cooked_flat",
+          "to_state": "folded_omelette",
+          "timestamp": 78.011,
+          "frame_number": 2338,
+          "confidence": "high",
+          "reason": "The omelette has been folded over and is now partially on a plate."
+        }
+      ]
+    },
+    "Frying Pan_1": {
+      "instance_id": "Frying Pan_1",
+      "object_class": "Frying Pan",
+      "description": "on stovetop",
+      "current_state": "with_cooking_omelette",
+      "transitions": [
+        {
+          "instance_id": "Frying Pan_1",
+          "object_class": "Frying Pan",
+          "from_state": "empty_clean_cold",
+          "to_state": "oiled_hot",
+          "timestamp": 21.021,
+          "frame_number": 630,
+          "confidence": "high",
+          "reason": "Butter has been added and is melting in the pan."
+        },
+        {
+          "instance_id": "Frying Pan_1",
+          "object_class": "Frying Pan",
+          "from_state": "oiled_hot",
+          "to_state": "with_liquid_eggs",
+          "timestamp": 25.692,
+          "frame_number": 770,
+          "confidence": "high",
+          "reason": "Butter has melted and oil has been added, and the pan now contains liquid/melted fat."
+        },
+        {
+          "instance_id": "Frying Pan_1",
+          "object_class": "Frying Pan",
+          "from_state": "oiled_hot",
+          "to_state": "with_liquid_eggs",
+          "timestamp": 27.094,
+          "frame_number": 812,
+          "confidence": "high",
+          "reason": "A dollop of egg mixture has been added to the pan."
+        },
+        {
+          "instance_id": "Frying Pan_1",
+          "object_class": "Frying Pan",
+          "from_state": "with_liquid_eggs",
+          "to_state": "with_cooking_omelette",
+          "timestamp": 35.502,
+          "frame_number": 1064,
+          "confidence": "high",
+          "reason": "Liquid egg mixture is being poured into the pan."
+        }
+      ]
+    },
+    "Whisk_1": {
+      "instance_id": "Whisk_1",
+      "object_class": "Whisk",
+      "description": "held above Frying Pan_1",
+      "current_state": "clean_dry",
+      "transitions": []
+    },
+    "Spatula_1": {
+      "instance_id": "Spatula_1",
+      "object_class": "Spatula",
+      "description": "in Frying Pan_1",
+      "current_state": "clean_dry",
+      "transitions": []
+    },
+    "Plate_1": {
+      "instance_id": "Plate_1",
+      "object_class": "Plate",
+      "description": "next to Frying Pan_1",
+      "current_state": "empty_clean",
+      "transitions": []
+    }
+  },
+  "summary": {
+    "total_transitions": 9,
+    "instances_tracked": 5
+  }
+}
