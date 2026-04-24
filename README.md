@@ -143,6 +143,29 @@ python main.py --video input/test_h264.webm --task "making an omelette from scra
 python main.py --video input/test_h264.webm --task "making an omelette from scratch" --threshold 0.50
 ```
 
+## Example memory bank output:
+
+```
+MEMORY BANK - making an omelette from scratch
+Generated: 2026-04-22T22:40:47.927004
+Instances tracked: 5
+Total transitions: 9
+
+---------------------------------------------------------------------------------------------
+Time     | Object       | New State             | Prev State          | Frame    | Confidence
+---------------------------------------------------------------------------------------------
+0:01     | Egg_1        | cracked_in_bowl       | whole_in_shell      | 42       | high
+0:10     | Egg_1        | beaten_liquid         | cracked_in_bowl     | 322      | high
+0:21     | Frying Pan_1 | oiled_hot             | empty_clean_cold    | 630      | high
+0:25     | Frying Pan_1 | with_liquid_eggs      | oiled_hot           | 770      | high
+0:27     | Frying Pan_1 | with_liquid_eggs      | oiled_hot           | 812      | high
+0:35     | Egg_1        | cooking_solidifying   | beaten_liquid       | 1064     | high
+0:35     | Frying Pan_1 | with_cooking_omelette | with_liquid_eggs    | 1064     | high
+1:17     | Egg_1        | cooked_flat           | cooking_solidifying | 2310     | high
+1:18     | Egg_1        | folded_omelette       | cooked_flat         | 2338     | high
+---------------------------------------------------------------------------------------------
+```
+
 ---
 
 ## Part 2 — Classical Models: Classification & Clustering
@@ -407,6 +430,34 @@ Results are saved to `outputs/video_inference_<timestamp>/`:
 - `all_frames_predictions.json` — per-frame predictions from all models
 
 ## Example memory bank output:
+
+```
+MEMORY BANK - test_h264
+Model: svm_rbf
+Generated: 2026-04-24T15:30:57.460448
+Instances tracked: 5
+Total transitions: 16
+---------------------------------------------------------------------------------------------------------
+Time     | Object       | New State             | Prev State            | Frame    | Confidence
+---------------------------------------------------------------------------------------------------------
+0:00     | bowl         | empty                 | none                  | 0        | 64.8%
+0:01     | eggs         | whisked               | none                  | 56       | 64.0%
+0:07     | bowl         | with-whisked-egg      | empty                 | 238      | 64.1%
+0:14     | bowl         | empty                 | with-whisked-egg      | 448      | 31.8%
+0:16     | pan          | empty                 | none                  | 490      | 64.1%
+0:25     | pan          | with-food             | empty                 | 756      | 64.2%
+0:25     | bowl         | with-whisked-egg      | empty                 | 770      | 64.1%
+0:31     | oil          | general               | none                  | 938      | 63.6%
+0:37     | eggs         | omelette              | whisked               | 1120     | 63.5%
+0:49     | eggs         | whisked               | omelette              | 1484     | 63.5%
+1:00     | eggs         | omelette              | whisked               | 1820     | 63.7%
+1:14     | eggs         | whisked               | omelette              | 2240     | 46.1%
+1:15     | bowl         | empty                 | with-whisked-egg      | 2254     | 64.7%
+1:16     | butter       | solid                 | none                  | 2296     | 63.2%
+1:17     | eggs         | omelette              | whisked               | 2310     | 64.4%
+1:19     | bowl         | with-whisked-egg      | empty                 | 2380     | 63.8%
+---------------------------------------------------------------------------------------------------------
+```
 
 ### Results
 
