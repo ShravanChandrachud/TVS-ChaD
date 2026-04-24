@@ -1,0 +1,92 @@
+{
+  "model": "logreg",
+  "video": "test_h264.webm",
+  "fps_extract": 2,
+  "cosine_threshold": 0.9,
+  "total_frames_extracted": 193,
+  "change_frames_detected": 53,
+  "state_changes": 9,
+  "memory_bank": [
+    {
+      "time": "0:00",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "none",
+      "frame": 0,
+      "confidence": 0.992,
+      "timestamp_seconds": 0.0
+    },
+    {
+      "time": "0:11",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "none",
+      "frame": 350,
+      "confidence": 0.894,
+      "timestamp_seconds": 11.68
+    },
+    {
+      "time": "0:14",
+      "object": "pan",
+      "new_state": "empty",
+      "prev_state": "none",
+      "frame": 434,
+      "confidence": 0.449,
+      "timestamp_seconds": 14.48
+    },
+    {
+      "time": "0:16",
+      "object": "pan",
+      "new_state": "with-food",
+      "prev_state": "empty",
+      "frame": 490,
+      "confidence": 0.972,
+      "timestamp_seconds": 16.35
+    },
+    {
+      "time": "0:30",
+      "object": "pan",
+      "new_state": "empty",
+      "prev_state": "with-food",
+      "frame": 924,
+      "confidence": 0.722,
+      "timestamp_seconds": 30.83
+    },
+    {
+      "time": "0:31",
+      "object": "oil",
+      "new_state": "general",
+      "prev_state": "none",
+      "frame": 938,
+      "confidence": 0.772,
+      "timestamp_seconds": 31.3
+    },
+    {
+      "time": "0:32",
+      "object": "pan",
+      "new_state": "with-food",
+      "prev_state": "empty",
+      "frame": 966,
+      "confidence": 0.982,
+      "timestamp_seconds": 32.23
+    },
+    {
+      "time": "0:40",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1218,
+      "confidence": 0.659,
+      "timestamp_seconds": 40.64
+    },
+    {
+      "time": "1:14",
+      "object": "butter",
+      "new_state": "solid",
+      "prev_state": "none",
+      "frame": 2240,
+      "confidence": 0.414,
+      "timestamp_seconds": 74.74
+    }
+  ]
+}

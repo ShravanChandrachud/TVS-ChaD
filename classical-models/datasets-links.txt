@@ -1,0 +1,34 @@
+Eggs :-
+    Raw : https://universe.roboflow.com/new-workspace-ltyar/egg-egg-1hseh
+          https://www.kaggle.com/datasets/abdullahkhanuet22/eggs-images-classification-damaged-or-not
+
+    Whisked:
+    Omelette: https://universe.roboflow.com/bully/egg-nr8a6
+              https://universe.roboflow.com/mjeed-ybg6c/omelet-acsyh
+              https://www.kaggle.com/datasets/dansbecker/food-101
+    Burned:
+
+Pan :-
+    Empty: https://universe.roboflow.com/kitchen-utensils-9yv2y/kitchen-utensils-3ypt0
+    With Food:
+
+Butter :-
+    Solid: https://universe.roboflow.com/passthebutter/butterdetector
+           
+    Melted:
+
+Oil :- https://universe.roboflow.com/ai-x2dqi/palm-cooking-oil
+
+Pepper :- https://data.mendeley.com/datasets/5v7w2hx8n5/2
+          
+
+Plate :-
+    Empty: https://universe.roboflow.com/kitchen-utensils-9yv2y/kitchen-utensils-3ypt0
+
+    With Food:
+
+Bowl :-
+    Empty: https://universe.roboflow.com/yolov8-a3acc/steel-bowls-detection-ilowl
+           https://universe.roboflow.com/practicas-djpmv/bowl-cis7f
+
+    With Whisked Egg:

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-04-23_17-02-30",
+  "embedding_model": "clip_vit_b32",
+  "kernels": {
+    "SVM (Linear)": {
+      "test_accuracy": 0.8454301075268817,
+      "val_accuracy": 0.8620689655172413,
+      "test_f1_macro": 0.8098578617849518,
+      "cv_mean": 0.8795212873899103,
+      "cv_std": 0.0027438044801408688,
+      "hyperparameters": {
+        "kernel": "linear",
+        "C": 1.0,
+        "gamma": "scale"
+      }
+    },
+    "SVM (RBF)": {
+      "test_accuracy": 0.8548387096774194,
+      "val_accuracy": 0.8793103448275862,
+      "test_f1_macro": 0.8218444971574183,
+      "cv_mean": 0.8891735324756146,
+      "cv_std": 0.0027517130932568903,
+      "hyperparameters": {
+        "kernel": "rbf",
+        "C": 10.0,
+        "gamma": "scale"
+      }
+    }
+  }
+}

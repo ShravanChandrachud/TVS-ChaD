@@ -1,0 +1,155 @@
+{
+  "model": "svm_rbf",
+  "video": "test_h264.webm",
+  "fps_extract": 2,
+  "cosine_threshold": 0.9,
+  "total_frames_extracted": 193,
+  "change_frames_detected": 53,
+  "state_changes": 16,
+  "memory_bank": [
+    {
+      "time": "0:00",
+      "object": "bowl",
+      "new_state": "empty",
+      "prev_state": "none",
+      "frame": 0,
+      "confidence": 0.648,
+      "timestamp_seconds": 0.0
+    },
+    {
+      "time": "0:01",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "none",
+      "frame": 56,
+      "confidence": 0.64,
+      "timestamp_seconds": 1.87
+    },
+    {
+      "time": "0:07",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "empty",
+      "frame": 238,
+      "confidence": 0.641,
+      "timestamp_seconds": 7.94
+    },
+    {
+      "time": "0:14",
+      "object": "bowl",
+      "new_state": "empty",
+      "prev_state": "with-whisked-egg",
+      "frame": 448,
+      "confidence": 0.318,
+      "timestamp_seconds": 14.95
+    },
+    {
+      "time": "0:16",
+      "object": "pan",
+      "new_state": "empty",
+      "prev_state": "none",
+      "frame": 490,
+      "confidence": 0.641,
+      "timestamp_seconds": 16.35
+    },
+    {
+      "time": "0:25",
+      "object": "pan",
+      "new_state": "with-food",
+      "prev_state": "empty",
+      "frame": 756,
+      "confidence": 0.642,
+      "timestamp_seconds": 25.23
+    },
+    {
+      "time": "0:25",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "empty",
+      "frame": 770,
+      "confidence": 0.641,
+      "timestamp_seconds": 25.69
+    },
+    {
+      "time": "0:31",
+      "object": "oil",
+      "new_state": "general",
+      "prev_state": "none",
+      "frame": 938,
+      "confidence": 0.636,
+      "timestamp_seconds": 31.3
+    },
+    {
+      "time": "0:37",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1120,
+      "confidence": 0.635,
+      "timestamp_seconds": 37.37
+    },
+    {
+      "time": "0:49",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "omelette",
+      "frame": 1484,
+      "confidence": 0.635,
+      "timestamp_seconds": 49.52
+    },
+    {
+      "time": "1:00",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1820,
+      "confidence": 0.637,
+      "timestamp_seconds": 60.73
+    },
+    {
+      "time": "1:14",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "omelette",
+      "frame": 2240,
+      "confidence": 0.461,
+      "timestamp_seconds": 74.74
+    },
+    {
+      "time": "1:15",
+      "object": "bowl",
+      "new_state": "empty",
+      "prev_state": "with-whisked-egg",
+      "frame": 2254,
+      "confidence": 0.647,
+      "timestamp_seconds": 75.21
+    },
+    {
+      "time": "1:16",
+      "object": "butter",
+      "new_state": "solid",
+      "prev_state": "none",
+      "frame": 2296,
+      "confidence": 0.632,
+      "timestamp_seconds": 76.61
+    },
+    {
+      "time": "1:17",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 2310,
+      "confidence": 0.644,
+      "timestamp_seconds": 77.08
+    },
+    {
+      "time": "1:19",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "empty",
+      "frame": 2380,
+      "confidence": 0.638,
+      "timestamp_seconds": 79.41
+    }
+  ]
+}

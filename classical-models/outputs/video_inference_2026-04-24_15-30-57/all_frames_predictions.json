@@ -1,0 +1,6261 @@
+{
+  "video": "test_h264.webm",
+  "fps_extract": 2,
+  "total_frames": 193,
+  "models": [
+    "logreg",
+    "svm_linear",
+    "svm_rbf",
+    "dec"
+  ],
+  "predictions": {
+    "logreg": {
+      "label_names": [
+        "bowl/empty",
+        "bowl/with-whisked-egg",
+        "butter/solid",
+        "eggs/omelette",
+        "eggs/raw",
+        "eggs/whisked",
+        "oil/general",
+        "pan/empty",
+        "pan/with-food",
+        "pepper/ground",
+        "plate/empty",
+        "plate/with-food"
+      ],
+      "per_frame": [
+        {
+          "frame": 0,
+          "time": "0:00",
+          "timestamp_seconds": 0.0,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9919
+        },
+        {
+          "frame": 14,
+          "time": "0:00",
+          "timestamp_seconds": 0.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 28,
+          "time": "0:00",
+          "timestamp_seconds": 0.93,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 42,
+          "time": "0:01",
+          "timestamp_seconds": 1.4,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 56,
+          "time": "0:01",
+          "timestamp_seconds": 1.87,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 70,
+          "time": "0:02",
+          "timestamp_seconds": 2.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 84,
+          "time": "0:02",
+          "timestamp_seconds": 2.8,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 98,
+          "time": "0:03",
+          "timestamp_seconds": 3.27,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 112,
+          "time": "0:03",
+          "timestamp_seconds": 3.74,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 126,
+          "time": "0:04",
+          "timestamp_seconds": 4.2,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 140,
+          "time": "0:04",
+          "timestamp_seconds": 4.67,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9998
+        },
+        {
+          "frame": 154,
+          "time": "0:05",
+          "timestamp_seconds": 5.14,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9957
+        },
+        {
+          "frame": 168,
+          "time": "0:05",
+          "timestamp_seconds": 5.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9926
+        },
+        {
+          "frame": 182,
+          "time": "0:06",
+          "timestamp_seconds": 6.07,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.997
+        },
+        {
+          "frame": 196,
+          "time": "0:06",
+          "timestamp_seconds": 6.54,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9389
+        },
+        {
+          "frame": 210,
+          "time": "0:07",
+          "timestamp_seconds": 7.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9997
+        },
+        {
+          "frame": 224,
+          "time": "0:07",
+          "timestamp_seconds": 7.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 238,
+          "time": "0:07",
+          "timestamp_seconds": 7.94,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8171
+        },
+        {
+          "frame": 252,
+          "time": "0:08",
+          "timestamp_seconds": 8.41,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9923
+        },
+        {
+          "frame": 266,
+          "time": "0:08",
+          "timestamp_seconds": 8.88,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9027
+        },
+        {
+          "frame": 280,
+          "time": "0:09",
+          "timestamp_seconds": 9.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8289
+        },
+        {
+          "frame": 294,
+          "time": "0:09",
+          "timestamp_seconds": 9.81,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.5184
+        },
+        {
+          "frame": 308,
+          "time": "0:10",
+          "timestamp_seconds": 10.28,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.5714
+        },
+        {
+          "frame": 322,
+          "time": "0:10",
+          "timestamp_seconds": 10.74,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9769
+        },
+        {
+          "frame": 336,
+          "time": "0:11",
+          "timestamp_seconds": 11.21,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7563
+        },
+        {
+          "frame": 350,
+          "time": "0:11",
+          "timestamp_seconds": 11.68,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.8936
+        },
+        {
+          "frame": 364,
+          "time": "0:12",
+          "timestamp_seconds": 12.15,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9937
+        },
+        {
+          "frame": 378,
+          "time": "0:12",
+          "timestamp_seconds": 12.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9764
+        },
+        {
+          "frame": 392,
+          "time": "0:13",
+          "timestamp_seconds": 13.08,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9812
+        },
+        {
+          "frame": 406,
+          "time": "0:13",
+          "timestamp_seconds": 13.55,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.7706
+        },
+        {
+          "frame": 420,
+          "time": "0:14",
+          "timestamp_seconds": 14.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5322
+        },
+        {
+          "frame": 434,
+          "time": "0:14",
+          "timestamp_seconds": 14.48,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.4485
+        },
+        {
+          "frame": 448,
+          "time": "0:14",
+          "timestamp_seconds": 14.95,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6698
+        },
+        {
+          "frame": 462,
+          "time": "0:15",
+          "timestamp_seconds": 15.42,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6352
+        },
+        {
+          "frame": 476,
+          "time": "0:15",
+          "timestamp_seconds": 15.88,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.9124
+        },
+        {
+          "frame": 490,
+          "time": "0:16",
+          "timestamp_seconds": 16.35,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.972
+        },
+        {
+          "frame": 504,
+          "time": "0:16",
+          "timestamp_seconds": 16.82,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9942
+        },
+        {
+          "frame": 518,
+          "time": "0:17",
+          "timestamp_seconds": 17.28,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6954
+        },
+        {
+          "frame": 532,
+          "time": "0:17",
+          "timestamp_seconds": 17.75,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8309
+        },
+        {
+          "frame": 546,
+          "time": "0:18",
+          "timestamp_seconds": 18.22,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8238
+        },
+        {
+          "frame": 560,
+          "time": "0:18",
+          "timestamp_seconds": 18.69,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8852
+        },
+        {
+          "frame": 574,
+          "time": "0:19",
+          "timestamp_seconds": 19.15,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8626
+        },
+        {
+          "frame": 588,
+          "time": "0:19",
+          "timestamp_seconds": 19.62,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8543
+        },
+        {
+          "frame": 602,
+          "time": "0:20",
+          "timestamp_seconds": 20.09,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.846
+        },
+        {
+          "frame": 616,
+          "time": "0:20",
+          "timestamp_seconds": 20.55,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9703
+        },
+        {
+          "frame": 630,
+          "time": "0:21",
+          "timestamp_seconds": 21.02,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8925
+        },
+        {
+          "frame": 644,
+          "time": "0:21",
+          "timestamp_seconds": 21.49,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9569
+        },
+        {
+          "frame": 658,
+          "time": "0:21",
+          "timestamp_seconds": 21.96,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9791
+        },
+        {
+          "frame": 672,
+          "time": "0:22",
+          "timestamp_seconds": 22.42,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9597
+        },
+        {
+          "frame": 686,
+          "time": "0:22",
+          "timestamp_seconds": 22.89,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 700,
+          "time": "0:23",
+          "timestamp_seconds": 23.36,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9879
+        },
+        {
+          "frame": 714,
+          "time": "0:23",
+          "timestamp_seconds": 23.82,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9996
+        },
+        {
+          "frame": 728,
+          "time": "0:24",
+          "timestamp_seconds": 24.29,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9987
+        },
+        {
+          "frame": 742,
+          "time": "0:24",
+          "timestamp_seconds": 24.76,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6871
+        },
+        {
+          "frame": 756,
+          "time": "0:25",
+          "timestamp_seconds": 25.23,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9858
+        },
+        {
+          "frame": 770,
+          "time": "0:25",
+          "timestamp_seconds": 25.69,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 784,
+          "time": "0:26",
+          "timestamp_seconds": 26.16,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 1.0
+        },
+        {
+          "frame": 798,
+          "time": "0:26",
+          "timestamp_seconds": 26.63,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 812,
+          "time": "0:27",
+          "timestamp_seconds": 27.09,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.565
+        },
+        {
+          "frame": 826,
+          "time": "0:27",
+          "timestamp_seconds": 27.56,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7766
+        },
+        {
+          "frame": 840,
+          "time": "0:28",
+          "timestamp_seconds": 28.03,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.997
+        },
+        {
+          "frame": 854,
+          "time": "0:28",
+          "timestamp_seconds": 28.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9913
+        },
+        {
+          "frame": 868,
+          "time": "0:28",
+          "timestamp_seconds": 28.96,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.979
+        },
+        {
+          "frame": 882,
+          "time": "0:29",
+          "timestamp_seconds": 29.43,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9359
+        },
+        {
+          "frame": 896,
+          "time": "0:29",
+          "timestamp_seconds": 29.9,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.9785
+        },
+        {
+          "frame": 910,
+          "time": "0:30",
+          "timestamp_seconds": 30.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8341
+        },
+        {
+          "frame": 924,
+          "time": "0:30",
+          "timestamp_seconds": 30.83,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.7223
+        },
+        {
+          "frame": 938,
+          "time": "0:31",
+          "timestamp_seconds": 31.3,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.7723
+        },
+        {
+          "frame": 952,
+          "time": "0:31",
+          "timestamp_seconds": 31.77,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.5138
+        },
+        {
+          "frame": 966,
+          "time": "0:32",
+          "timestamp_seconds": 32.23,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9818
+        },
+        {
+          "frame": 980,
+          "time": "0:32",
+          "timestamp_seconds": 32.7,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.984
+        },
+        {
+          "frame": 994,
+          "time": "0:33",
+          "timestamp_seconds": 33.17,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9819
+        },
+        {
+          "frame": 1008,
+          "time": "0:33",
+          "timestamp_seconds": 33.63,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9831
+        },
+        {
+          "frame": 1022,
+          "time": "0:34",
+          "timestamp_seconds": 34.1,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.7801
+        },
+        {
+          "frame": 1036,
+          "time": "0:34",
+          "timestamp_seconds": 34.57,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.4762
+        },
+        {
+          "frame": 1050,
+          "time": "0:35",
+          "timestamp_seconds": 35.04,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7404
+        },
+        {
+          "frame": 1064,
+          "time": "0:35",
+          "timestamp_seconds": 35.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5001
+        },
+        {
+          "frame": 1078,
+          "time": "0:35",
+          "timestamp_seconds": 35.97,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9981
+        },
+        {
+          "frame": 1092,
+          "time": "0:36",
+          "timestamp_seconds": 36.44,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9997
+        },
+        {
+          "frame": 1106,
+          "time": "0:36",
+          "timestamp_seconds": 36.9,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9994
+        },
+        {
+          "frame": 1120,
+          "time": "0:37",
+          "timestamp_seconds": 37.37,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7855
+        },
+        {
+          "frame": 1134,
+          "time": "0:37",
+          "timestamp_seconds": 37.84,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8763
+        },
+        {
+          "frame": 1148,
+          "time": "0:38",
+          "timestamp_seconds": 38.3,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8066
+        },
+        {
+          "frame": 1162,
+          "time": "0:38",
+          "timestamp_seconds": 38.77,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9214
+        },
+        {
+          "frame": 1176,
+          "time": "0:39",
+          "timestamp_seconds": 39.24,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9326
+        },
+        {
+          "frame": 1190,
+          "time": "0:39",
+          "timestamp_seconds": 39.71,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9296
+        },
+        {
+          "frame": 1204,
+          "time": "0:40",
+          "timestamp_seconds": 40.17,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8769
+        },
+        {
+          "frame": 1218,
+          "time": "0:40",
+          "timestamp_seconds": 40.64,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6586
+        },
+        {
+          "frame": 1232,
+          "time": "0:41",
+          "timestamp_seconds": 41.11,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8581
+        },
+        {
+          "frame": 1246,
+          "time": "0:41",
+          "timestamp_seconds": 41.57,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6776
+        },
+        {
+          "frame": 1260,
+          "time": "0:42",
+          "timestamp_seconds": 42.04,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7003
+        },
+        {
+          "frame": 1274,
+          "time": "0:42",
+          "timestamp_seconds": 42.51,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7127
+        },
+        {
+          "frame": 1288,
+          "time": "0:42",
+          "timestamp_seconds": 42.98,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6102
+        },
+        {
+          "frame": 1302,
+          "time": "0:43",
+          "timestamp_seconds": 43.44,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7402
+        },
+        {
+          "frame": 1316,
+          "time": "0:43",
+          "timestamp_seconds": 43.91,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8974
+        },
+        {
+          "frame": 1330,
+          "time": "0:44",
+          "timestamp_seconds": 44.38,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9558
+        },
+        {
+          "frame": 1344,
+          "time": "0:44",
+          "timestamp_seconds": 44.84,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9025
+        },
+        {
+          "frame": 1358,
+          "time": "0:45",
+          "timestamp_seconds": 45.31,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9964
+        },
+        {
+          "frame": 1372,
+          "time": "0:45",
+          "timestamp_seconds": 45.78,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9886
+        },
+        {
+          "frame": 1386,
+          "time": "0:46",
+          "timestamp_seconds": 46.25,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9996
+        },
+        {
+          "frame": 1400,
+          "time": "0:46",
+          "timestamp_seconds": 46.71,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9853
+        },
+        {
+          "frame": 1414,
+          "time": "0:47",
+          "timestamp_seconds": 47.18,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 1428,
+          "time": "0:47",
+          "timestamp_seconds": 47.65,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 1.0
+        },
+        {
+          "frame": 1442,
+          "time": "0:48",
+          "timestamp_seconds": 48.11,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9992
+        },
+        {
+          "frame": 1456,
+          "time": "0:48",
+          "timestamp_seconds": 48.58,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 1470,
+          "time": "0:49",
+          "timestamp_seconds": 49.05,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9998
+        },
+        {
+          "frame": 1484,
+          "time": "0:49",
+          "timestamp_seconds": 49.52,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5664
+        },
+        {
+          "frame": 1498,
+          "time": "0:49",
+          "timestamp_seconds": 49.98,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9239
+        },
+        {
+          "frame": 1512,
+          "time": "0:50",
+          "timestamp_seconds": 50.45,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.9581
+        },
+        {
+          "frame": 1526,
+          "time": "0:50",
+          "timestamp_seconds": 50.92,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6711
+        },
+        {
+          "frame": 1540,
+          "time": "0:51",
+          "timestamp_seconds": 51.38,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6889
+        },
+        {
+          "frame": 1554,
+          "time": "0:51",
+          "timestamp_seconds": 51.85,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.9068
+        },
+        {
+          "frame": 1568,
+          "time": "0:52",
+          "timestamp_seconds": 52.32,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.5318
+        },
+        {
+          "frame": 1582,
+          "time": "0:52",
+          "timestamp_seconds": 52.79,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7452
+        },
+        {
+          "frame": 1596,
+          "time": "0:53",
+          "timestamp_seconds": 53.25,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7037
+        },
+        {
+          "frame": 1610,
+          "time": "0:53",
+          "timestamp_seconds": 53.72,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5537
+        },
+        {
+          "frame": 1624,
+          "time": "0:54",
+          "timestamp_seconds": 54.19,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9973
+        },
+        {
+          "frame": 1638,
+          "time": "0:54",
+          "timestamp_seconds": 54.65,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9976
+        },
+        {
+          "frame": 1652,
+          "time": "0:55",
+          "timestamp_seconds": 55.12,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9995
+        },
+        {
+          "frame": 1666,
+          "time": "0:55",
+          "timestamp_seconds": 55.59,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 1.0
+        },
+        {
+          "frame": 1680,
+          "time": "0:56",
+          "timestamp_seconds": 56.06,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9987
+        },
+        {
+          "frame": 1694,
+          "time": "0:56",
+          "timestamp_seconds": 56.52,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 1708,
+          "time": "0:56",
+          "timestamp_seconds": 56.99,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 1722,
+          "time": "0:57",
+          "timestamp_seconds": 57.46,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9998
+        },
+        {
+          "frame": 1736,
+          "time": "0:57",
+          "timestamp_seconds": 57.92,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9989
+        },
+        {
+          "frame": 1750,
+          "time": "0:58",
+          "timestamp_seconds": 58.39,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9204
+        },
+        {
+          "frame": 1764,
+          "time": "0:58",
+          "timestamp_seconds": 58.86,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9565
+        },
+        {
+          "frame": 1778,
+          "time": "0:59",
+          "timestamp_seconds": 59.33,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9912
+        },
+        {
+          "frame": 1792,
+          "time": "0:59",
+          "timestamp_seconds": 59.79,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9955
+        },
+        {
+          "frame": 1806,
+          "time": "1:00",
+          "timestamp_seconds": 60.26,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9953
+        },
+        {
+          "frame": 1820,
+          "time": "1:00",
+          "timestamp_seconds": 60.73,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.5151
+        },
+        {
+          "frame": 1834,
+          "time": "1:01",
+          "timestamp_seconds": 61.19,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8243
+        },
+        {
+          "frame": 1848,
+          "time": "1:01",
+          "timestamp_seconds": 61.66,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.966
+        },
+        {
+          "frame": 1862,
+          "time": "1:02",
+          "timestamp_seconds": 62.13,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9189
+        },
+        {
+          "frame": 1876,
+          "time": "1:02",
+          "timestamp_seconds": 62.6,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8203
+        },
+        {
+          "frame": 1890,
+          "time": "1:03",
+          "timestamp_seconds": 63.06,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9882
+        },
+        {
+          "frame": 1904,
+          "time": "1:03",
+          "timestamp_seconds": 63.53,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9982
+        },
+        {
+          "frame": 1918,
+          "time": "1:03",
+          "timestamp_seconds": 64.0,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9982
+        },
+        {
+          "frame": 1932,
+          "time": "1:04",
+          "timestamp_seconds": 64.46,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8697
+        },
+        {
+          "frame": 1946,
+          "time": "1:04",
+          "timestamp_seconds": 64.93,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8239
+        },
+        {
+          "frame": 1960,
+          "time": "1:05",
+          "timestamp_seconds": 65.4,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8799
+        },
+        {
+          "frame": 1974,
+          "time": "1:05",
+          "timestamp_seconds": 65.87,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.914
+        },
+        {
+          "frame": 1988,
+          "time": "1:06",
+          "timestamp_seconds": 66.33,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4662
+        },
+        {
+          "frame": 2002,
+          "time": "1:06",
+          "timestamp_seconds": 66.8,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9869
+        },
+        {
+          "frame": 2016,
+          "time": "1:07",
+          "timestamp_seconds": 67.27,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4316
+        },
+        {
+          "frame": 2030,
+          "time": "1:07",
+          "timestamp_seconds": 67.73,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8229
+        },
+        {
+          "frame": 2044,
+          "time": "1:08",
+          "timestamp_seconds": 68.2,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 2058,
+          "time": "1:08",
+          "timestamp_seconds": 68.67,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9997
+        },
+        {
+          "frame": 2072,
+          "time": "1:09",
+          "timestamp_seconds": 69.14,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9922
+        },
+        {
+          "frame": 2086,
+          "time": "1:09",
+          "timestamp_seconds": 69.6,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9082
+        },
+        {
+          "frame": 2100,
+          "time": "1:10",
+          "timestamp_seconds": 70.07,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9322
+        },
+        {
+          "frame": 2114,
+          "time": "1:10",
+          "timestamp_seconds": 70.54,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9601
+        },
+        {
+          "frame": 2128,
+          "time": "1:11",
+          "timestamp_seconds": 71.0,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9776
+        },
+        {
+          "frame": 2142,
+          "time": "1:11",
+          "timestamp_seconds": 71.47,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9663
+        },
+        {
+          "frame": 2156,
+          "time": "1:11",
+          "timestamp_seconds": 71.94,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9539
+        },
+        {
+          "frame": 2170,
+          "time": "1:12",
+          "timestamp_seconds": 72.41,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.8932
+        },
+        {
+          "frame": 2184,
+          "time": "1:12",
+          "timestamp_seconds": 72.87,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.9675
+        },
+        {
+          "frame": 2198,
+          "time": "1:13",
+          "timestamp_seconds": 73.34,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6565
+        },
+        {
+          "frame": 2212,
+          "time": "1:13",
+          "timestamp_seconds": 73.81,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9999
+        },
+        {
+          "frame": 2226,
+          "time": "1:14",
+          "timestamp_seconds": 74.27,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9904
+        },
+        {
+          "frame": 2240,
+          "time": "1:14",
+          "timestamp_seconds": 74.74,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4136
+        },
+        {
+          "frame": 2254,
+          "time": "1:15",
+          "timestamp_seconds": 75.21,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3197
+        },
+        {
+          "frame": 2268,
+          "time": "1:15",
+          "timestamp_seconds": 75.68,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.7397
+        },
+        {
+          "frame": 2282,
+          "time": "1:16",
+          "timestamp_seconds": 76.14,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.7416
+        },
+        {
+          "frame": 2296,
+          "time": "1:16",
+          "timestamp_seconds": 76.61,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.973
+        },
+        {
+          "frame": 2310,
+          "time": "1:17",
+          "timestamp_seconds": 77.08,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4894
+        },
+        {
+          "frame": 2324,
+          "time": "1:17",
+          "timestamp_seconds": 77.54,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4445
+        },
+        {
+          "frame": 2338,
+          "time": "1:18",
+          "timestamp_seconds": 78.01,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6951
+        },
+        {
+          "frame": 2352,
+          "time": "1:18",
+          "timestamp_seconds": 78.48,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9918
+        },
+        {
+          "frame": 2366,
+          "time": "1:18",
+          "timestamp_seconds": 78.95,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9812
+        },
+        {
+          "frame": 2380,
+          "time": "1:19",
+          "timestamp_seconds": 79.41,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6224
+        },
+        {
+          "frame": 2394,
+          "time": "1:19",
+          "timestamp_seconds": 79.88,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9984
+        },
+        {
+          "frame": 2408,
+          "time": "1:20",
+          "timestamp_seconds": 80.35,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 1.0
+        },
+        {
+          "frame": 2422,
+          "time": "1:20",
+          "timestamp_seconds": 80.81,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9997
+        },
+        {
+          "frame": 2436,
+          "time": "1:21",
+          "timestamp_seconds": 81.28,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9993
+        },
+        {
+          "frame": 2450,
+          "time": "1:21",
+          "timestamp_seconds": 81.75,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.8661
+        },
+        {
+          "frame": 2464,
+          "time": "1:22",
+          "timestamp_seconds": 82.22,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4747
+        },
+        {
+          "frame": 2478,
+          "time": "1:22",
+          "timestamp_seconds": 82.68,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.9132
+        },
+        {
+          "frame": 2492,
+          "time": "1:23",
+          "timestamp_seconds": 83.15,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.9902
+        },
+        {
+          "frame": 2506,
+          "time": "1:23",
+          "timestamp_seconds": 83.62,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.9996
+        },
+        {
+          "frame": 2520,
+          "time": "1:24",
+          "timestamp_seconds": 84.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.9094
+        },
+        {
+          "frame": 2534,
+          "time": "1:24",
+          "timestamp_seconds": 84.55,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.9836
+        },
+        {
+          "frame": 2548,
+          "time": "1:25",
+          "timestamp_seconds": 85.02,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7418
+        },
+        {
+          "frame": 2562,
+          "time": "1:25",
+          "timestamp_seconds": 85.49,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.9992
+        },
+        {
+          "frame": 2576,
+          "time": "1:25",
+          "timestamp_seconds": 85.95,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6016
+        },
+        {
+          "frame": 2590,
+          "time": "1:26",
+          "timestamp_seconds": 86.42,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5696
+        },
+        {
+          "frame": 2604,
+          "time": "1:26",
+          "timestamp_seconds": 86.89,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5622
+        },
+        {
+          "frame": 2618,
+          "time": "1:27",
+          "timestamp_seconds": 87.35,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8769
+        },
+        {
+          "frame": 2632,
+          "time": "1:27",
+          "timestamp_seconds": 87.82,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.9771
+        },
+        {
+          "frame": 2646,
+          "time": "1:28",
+          "timestamp_seconds": 88.29,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7527
+        },
+        {
+          "frame": 2660,
+          "time": "1:28",
+          "timestamp_seconds": 88.76,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.8922
+        },
+        {
+          "frame": 2674,
+          "time": "1:29",
+          "timestamp_seconds": 89.22,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7101
+        },
+        {
+          "frame": 2688,
+          "time": "1:29",
+          "timestamp_seconds": 89.69,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5658
+        }
+      ]
+    },
+    "svm_linear": {
+      "label_names": [
+        "bowl/empty",
+        "bowl/with-whisked-egg",
+        "butter/solid",
+        "eggs/omelette",
+        "eggs/raw",
+        "eggs/whisked",
+        "oil/general",
+        "pan/empty",
+        "pan/with-food",
+        "pepper/ground",
+        "plate/empty",
+        "plate/with-food"
+      ],
+      "per_frame": [
+        {
+          "frame": 0,
+          "time": "0:00",
+          "timestamp_seconds": 0.0,
+          "predicted_class": "plate/empty",
+          "predicted_index": 10,
+          "confidence": 0.6399
+        },
+        {
+          "frame": 14,
+          "time": "0:00",
+          "timestamp_seconds": 0.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.5184
+        },
+        {
+          "frame": 28,
+          "time": "0:00",
+          "timestamp_seconds": 0.93,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7482
+        },
+        {
+          "frame": 42,
+          "time": "0:01",
+          "timestamp_seconds": 1.4,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6541
+        },
+        {
+          "frame": 56,
+          "time": "0:01",
+          "timestamp_seconds": 1.87,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6553
+        },
+        {
+          "frame": 70,
+          "time": "0:02",
+          "timestamp_seconds": 2.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6546
+        },
+        {
+          "frame": 84,
+          "time": "0:02",
+          "timestamp_seconds": 2.8,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6792
+        },
+        {
+          "frame": 98,
+          "time": "0:03",
+          "timestamp_seconds": 3.27,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6554
+        },
+        {
+          "frame": 112,
+          "time": "0:03",
+          "timestamp_seconds": 3.74,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6554
+        },
+        {
+          "frame": 126,
+          "time": "0:04",
+          "timestamp_seconds": 4.2,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6981
+        },
+        {
+          "frame": 140,
+          "time": "0:04",
+          "timestamp_seconds": 4.67,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6609
+        },
+        {
+          "frame": 154,
+          "time": "0:05",
+          "timestamp_seconds": 5.14,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6563
+        },
+        {
+          "frame": 168,
+          "time": "0:05",
+          "timestamp_seconds": 5.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6578
+        },
+        {
+          "frame": 182,
+          "time": "0:06",
+          "timestamp_seconds": 6.07,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.688
+        },
+        {
+          "frame": 196,
+          "time": "0:06",
+          "timestamp_seconds": 6.54,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6538
+        },
+        {
+          "frame": 210,
+          "time": "0:07",
+          "timestamp_seconds": 7.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6832
+        },
+        {
+          "frame": 224,
+          "time": "0:07",
+          "timestamp_seconds": 7.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6658
+        },
+        {
+          "frame": 238,
+          "time": "0:07",
+          "timestamp_seconds": 7.94,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7303
+        },
+        {
+          "frame": 252,
+          "time": "0:08",
+          "timestamp_seconds": 8.41,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6547
+        },
+        {
+          "frame": 266,
+          "time": "0:08",
+          "timestamp_seconds": 8.88,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6517
+        },
+        {
+          "frame": 280,
+          "time": "0:09",
+          "timestamp_seconds": 9.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6471
+        },
+        {
+          "frame": 294,
+          "time": "0:09",
+          "timestamp_seconds": 9.81,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6773
+        },
+        {
+          "frame": 308,
+          "time": "0:10",
+          "timestamp_seconds": 10.28,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6782
+        },
+        {
+          "frame": 322,
+          "time": "0:10",
+          "timestamp_seconds": 10.74,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.685
+        },
+        {
+          "frame": 336,
+          "time": "0:11",
+          "timestamp_seconds": 11.21,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6818
+        },
+        {
+          "frame": 350,
+          "time": "0:11",
+          "timestamp_seconds": 11.68,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6771
+        },
+        {
+          "frame": 364,
+          "time": "0:12",
+          "timestamp_seconds": 12.15,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6431
+        },
+        {
+          "frame": 378,
+          "time": "0:12",
+          "timestamp_seconds": 12.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6585
+        },
+        {
+          "frame": 392,
+          "time": "0:13",
+          "timestamp_seconds": 13.08,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6424
+        },
+        {
+          "frame": 406,
+          "time": "0:13",
+          "timestamp_seconds": 13.55,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6454
+        },
+        {
+          "frame": 420,
+          "time": "0:14",
+          "timestamp_seconds": 14.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6831
+        },
+        {
+          "frame": 434,
+          "time": "0:14",
+          "timestamp_seconds": 14.48,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6314
+        },
+        {
+          "frame": 448,
+          "time": "0:14",
+          "timestamp_seconds": 14.95,
+          "predicted_class": "plate/empty",
+          "predicted_index": 10,
+          "confidence": 0.6354
+        },
+        {
+          "frame": 462,
+          "time": "0:15",
+          "timestamp_seconds": 15.42,
+          "predicted_class": "plate/empty",
+          "predicted_index": 10,
+          "confidence": 0.635
+        },
+        {
+          "frame": 476,
+          "time": "0:15",
+          "timestamp_seconds": 15.88,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6671
+        },
+        {
+          "frame": 490,
+          "time": "0:16",
+          "timestamp_seconds": 16.35,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6541
+        },
+        {
+          "frame": 504,
+          "time": "0:16",
+          "timestamp_seconds": 16.82,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6453
+        },
+        {
+          "frame": 518,
+          "time": "0:17",
+          "timestamp_seconds": 17.28,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6549
+        },
+        {
+          "frame": 532,
+          "time": "0:17",
+          "timestamp_seconds": 17.75,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6621
+        },
+        {
+          "frame": 546,
+          "time": "0:18",
+          "timestamp_seconds": 18.22,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6583
+        },
+        {
+          "frame": 560,
+          "time": "0:18",
+          "timestamp_seconds": 18.69,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6582
+        },
+        {
+          "frame": 574,
+          "time": "0:19",
+          "timestamp_seconds": 19.15,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6583
+        },
+        {
+          "frame": 588,
+          "time": "0:19",
+          "timestamp_seconds": 19.62,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6583
+        },
+        {
+          "frame": 602,
+          "time": "0:20",
+          "timestamp_seconds": 20.09,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6583
+        },
+        {
+          "frame": 616,
+          "time": "0:20",
+          "timestamp_seconds": 20.55,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6477
+        },
+        {
+          "frame": 630,
+          "time": "0:21",
+          "timestamp_seconds": 21.02,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3684
+        },
+        {
+          "frame": 644,
+          "time": "0:21",
+          "timestamp_seconds": 21.49,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6387
+        },
+        {
+          "frame": 658,
+          "time": "0:21",
+          "timestamp_seconds": 21.96,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6422
+        },
+        {
+          "frame": 672,
+          "time": "0:22",
+          "timestamp_seconds": 22.42,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6422
+        },
+        {
+          "frame": 686,
+          "time": "0:22",
+          "timestamp_seconds": 22.89,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6692
+        },
+        {
+          "frame": 700,
+          "time": "0:23",
+          "timestamp_seconds": 23.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.399
+        },
+        {
+          "frame": 714,
+          "time": "0:23",
+          "timestamp_seconds": 23.82,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6559
+        },
+        {
+          "frame": 728,
+          "time": "0:24",
+          "timestamp_seconds": 24.29,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6592
+        },
+        {
+          "frame": 742,
+          "time": "0:24",
+          "timestamp_seconds": 24.76,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6406
+        },
+        {
+          "frame": 756,
+          "time": "0:25",
+          "timestamp_seconds": 25.23,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3197
+        },
+        {
+          "frame": 770,
+          "time": "0:25",
+          "timestamp_seconds": 25.69,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4075
+        },
+        {
+          "frame": 784,
+          "time": "0:26",
+          "timestamp_seconds": 26.16,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4363
+        },
+        {
+          "frame": 798,
+          "time": "0:26",
+          "timestamp_seconds": 26.63,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4258
+        },
+        {
+          "frame": 812,
+          "time": "0:27",
+          "timestamp_seconds": 27.09,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6401
+        },
+        {
+          "frame": 826,
+          "time": "0:27",
+          "timestamp_seconds": 27.56,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6461
+        },
+        {
+          "frame": 840,
+          "time": "0:28",
+          "timestamp_seconds": 28.03,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7238
+        },
+        {
+          "frame": 854,
+          "time": "0:28",
+          "timestamp_seconds": 28.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6907
+        },
+        {
+          "frame": 868,
+          "time": "0:28",
+          "timestamp_seconds": 28.96,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7136
+        },
+        {
+          "frame": 882,
+          "time": "0:29",
+          "timestamp_seconds": 29.43,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7024
+        },
+        {
+          "frame": 896,
+          "time": "0:29",
+          "timestamp_seconds": 29.9,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.7399
+        },
+        {
+          "frame": 910,
+          "time": "0:30",
+          "timestamp_seconds": 30.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6675
+        },
+        {
+          "frame": 924,
+          "time": "0:30",
+          "timestamp_seconds": 30.83,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.7083
+        },
+        {
+          "frame": 938,
+          "time": "0:31",
+          "timestamp_seconds": 31.3,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6435
+        },
+        {
+          "frame": 952,
+          "time": "0:31",
+          "timestamp_seconds": 31.77,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6855
+        },
+        {
+          "frame": 966,
+          "time": "0:32",
+          "timestamp_seconds": 32.23,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6321
+        },
+        {
+          "frame": 980,
+          "time": "0:32",
+          "timestamp_seconds": 32.7,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6331
+        },
+        {
+          "frame": 994,
+          "time": "0:33",
+          "timestamp_seconds": 33.17,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6318
+        },
+        {
+          "frame": 1008,
+          "time": "0:33",
+          "timestamp_seconds": 33.63,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.3647
+        },
+        {
+          "frame": 1022,
+          "time": "0:34",
+          "timestamp_seconds": 34.1,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6383
+        },
+        {
+          "frame": 1036,
+          "time": "0:34",
+          "timestamp_seconds": 34.57,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6355
+        },
+        {
+          "frame": 1050,
+          "time": "0:35",
+          "timestamp_seconds": 35.04,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6436
+        },
+        {
+          "frame": 1064,
+          "time": "0:35",
+          "timestamp_seconds": 35.5,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6654
+        },
+        {
+          "frame": 1078,
+          "time": "0:35",
+          "timestamp_seconds": 35.97,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3884
+        },
+        {
+          "frame": 1092,
+          "time": "0:36",
+          "timestamp_seconds": 36.44,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3977
+        },
+        {
+          "frame": 1106,
+          "time": "0:36",
+          "timestamp_seconds": 36.9,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4016
+        },
+        {
+          "frame": 1120,
+          "time": "0:37",
+          "timestamp_seconds": 37.37,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6367
+        },
+        {
+          "frame": 1134,
+          "time": "0:37",
+          "timestamp_seconds": 37.84,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6373
+        },
+        {
+          "frame": 1148,
+          "time": "0:38",
+          "timestamp_seconds": 38.3,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 1162,
+          "time": "0:38",
+          "timestamp_seconds": 38.77,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6371
+        },
+        {
+          "frame": 1176,
+          "time": "0:39",
+          "timestamp_seconds": 39.24,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6373
+        },
+        {
+          "frame": 1190,
+          "time": "0:39",
+          "timestamp_seconds": 39.71,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6372
+        },
+        {
+          "frame": 1204,
+          "time": "0:40",
+          "timestamp_seconds": 40.17,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.637
+        },
+        {
+          "frame": 1218,
+          "time": "0:40",
+          "timestamp_seconds": 40.64,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.639
+        },
+        {
+          "frame": 1232,
+          "time": "0:41",
+          "timestamp_seconds": 41.11,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.647
+        },
+        {
+          "frame": 1246,
+          "time": "0:41",
+          "timestamp_seconds": 41.57,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7061
+        },
+        {
+          "frame": 1260,
+          "time": "0:42",
+          "timestamp_seconds": 42.04,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7421
+        },
+        {
+          "frame": 1274,
+          "time": "0:42",
+          "timestamp_seconds": 42.51,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7053
+        },
+        {
+          "frame": 1288,
+          "time": "0:42",
+          "timestamp_seconds": 42.98,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7426
+        },
+        {
+          "frame": 1302,
+          "time": "0:43",
+          "timestamp_seconds": 43.44,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7031
+        },
+        {
+          "frame": 1316,
+          "time": "0:43",
+          "timestamp_seconds": 43.91,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.703
+        },
+        {
+          "frame": 1330,
+          "time": "0:44",
+          "timestamp_seconds": 44.38,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.364
+        },
+        {
+          "frame": 1344,
+          "time": "0:44",
+          "timestamp_seconds": 44.84,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3904
+        },
+        {
+          "frame": 1358,
+          "time": "0:45",
+          "timestamp_seconds": 45.31,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3926
+        },
+        {
+          "frame": 1372,
+          "time": "0:45",
+          "timestamp_seconds": 45.78,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6383
+        },
+        {
+          "frame": 1386,
+          "time": "0:46",
+          "timestamp_seconds": 46.25,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3264
+        },
+        {
+          "frame": 1400,
+          "time": "0:46",
+          "timestamp_seconds": 46.71,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.393
+        },
+        {
+          "frame": 1414,
+          "time": "0:47",
+          "timestamp_seconds": 47.18,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6626
+        },
+        {
+          "frame": 1428,
+          "time": "0:47",
+          "timestamp_seconds": 47.65,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3959
+        },
+        {
+          "frame": 1442,
+          "time": "0:48",
+          "timestamp_seconds": 48.11,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3927
+        },
+        {
+          "frame": 1456,
+          "time": "0:48",
+          "timestamp_seconds": 48.58,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3914
+        },
+        {
+          "frame": 1470,
+          "time": "0:49",
+          "timestamp_seconds": 49.05,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3918
+        },
+        {
+          "frame": 1484,
+          "time": "0:49",
+          "timestamp_seconds": 49.52,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6421
+        },
+        {
+          "frame": 1498,
+          "time": "0:49",
+          "timestamp_seconds": 49.98,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.709
+        },
+        {
+          "frame": 1512,
+          "time": "0:50",
+          "timestamp_seconds": 50.45,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6422
+        },
+        {
+          "frame": 1526,
+          "time": "0:50",
+          "timestamp_seconds": 50.92,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.39
+        },
+        {
+          "frame": 1540,
+          "time": "0:51",
+          "timestamp_seconds": 51.38,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7288
+        },
+        {
+          "frame": 1554,
+          "time": "0:51",
+          "timestamp_seconds": 51.85,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6405
+        },
+        {
+          "frame": 1568,
+          "time": "0:52",
+          "timestamp_seconds": 52.32,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7287
+        },
+        {
+          "frame": 1582,
+          "time": "0:52",
+          "timestamp_seconds": 52.79,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.4539
+        },
+        {
+          "frame": 1596,
+          "time": "0:53",
+          "timestamp_seconds": 53.25,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7353
+        },
+        {
+          "frame": 1610,
+          "time": "0:53",
+          "timestamp_seconds": 53.72,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6509
+        },
+        {
+          "frame": 1624,
+          "time": "0:54",
+          "timestamp_seconds": 54.19,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6338
+        },
+        {
+          "frame": 1638,
+          "time": "0:54",
+          "timestamp_seconds": 54.65,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6335
+        },
+        {
+          "frame": 1652,
+          "time": "0:55",
+          "timestamp_seconds": 55.12,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.646
+        },
+        {
+          "frame": 1666,
+          "time": "0:55",
+          "timestamp_seconds": 55.59,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6701
+        },
+        {
+          "frame": 1680,
+          "time": "0:56",
+          "timestamp_seconds": 56.06,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3827
+        },
+        {
+          "frame": 1694,
+          "time": "0:56",
+          "timestamp_seconds": 56.52,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3697
+        },
+        {
+          "frame": 1708,
+          "time": "0:56",
+          "timestamp_seconds": 56.99,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.4727
+        },
+        {
+          "frame": 1722,
+          "time": "0:57",
+          "timestamp_seconds": 57.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3837
+        },
+        {
+          "frame": 1736,
+          "time": "0:57",
+          "timestamp_seconds": 57.92,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.4691
+        },
+        {
+          "frame": 1750,
+          "time": "0:58",
+          "timestamp_seconds": 58.39,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.4835
+        },
+        {
+          "frame": 1764,
+          "time": "0:58",
+          "timestamp_seconds": 58.86,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3807
+        },
+        {
+          "frame": 1778,
+          "time": "0:59",
+          "timestamp_seconds": 59.33,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.361
+        },
+        {
+          "frame": 1792,
+          "time": "0:59",
+          "timestamp_seconds": 59.79,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6339
+        },
+        {
+          "frame": 1806,
+          "time": "1:00",
+          "timestamp_seconds": 60.26,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6329
+        },
+        {
+          "frame": 1820,
+          "time": "1:00",
+          "timestamp_seconds": 60.73,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6447
+        },
+        {
+          "frame": 1834,
+          "time": "1:01",
+          "timestamp_seconds": 61.19,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6671
+        },
+        {
+          "frame": 1848,
+          "time": "1:01",
+          "timestamp_seconds": 61.66,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7379
+        },
+        {
+          "frame": 1862,
+          "time": "1:02",
+          "timestamp_seconds": 62.13,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7545
+        },
+        {
+          "frame": 1876,
+          "time": "1:02",
+          "timestamp_seconds": 62.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6327
+        },
+        {
+          "frame": 1890,
+          "time": "1:03",
+          "timestamp_seconds": 63.06,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6422
+        },
+        {
+          "frame": 1904,
+          "time": "1:03",
+          "timestamp_seconds": 63.53,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7279
+        },
+        {
+          "frame": 1918,
+          "time": "1:03",
+          "timestamp_seconds": 64.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6591
+        },
+        {
+          "frame": 1932,
+          "time": "1:04",
+          "timestamp_seconds": 64.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6396
+        },
+        {
+          "frame": 1946,
+          "time": "1:04",
+          "timestamp_seconds": 64.93,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6464
+        },
+        {
+          "frame": 1960,
+          "time": "1:05",
+          "timestamp_seconds": 65.4,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6399
+        },
+        {
+          "frame": 1974,
+          "time": "1:05",
+          "timestamp_seconds": 65.87,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6413
+        },
+        {
+          "frame": 1988,
+          "time": "1:06",
+          "timestamp_seconds": 66.33,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4472
+        },
+        {
+          "frame": 2002,
+          "time": "1:06",
+          "timestamp_seconds": 66.8,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6385
+        },
+        {
+          "frame": 2016,
+          "time": "1:07",
+          "timestamp_seconds": 67.27,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 2030,
+          "time": "1:07",
+          "timestamp_seconds": 67.73,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6358
+        },
+        {
+          "frame": 2044,
+          "time": "1:08",
+          "timestamp_seconds": 68.2,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6322
+        },
+        {
+          "frame": 2058,
+          "time": "1:08",
+          "timestamp_seconds": 68.67,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.633
+        },
+        {
+          "frame": 2072,
+          "time": "1:09",
+          "timestamp_seconds": 69.14,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6372
+        },
+        {
+          "frame": 2086,
+          "time": "1:09",
+          "timestamp_seconds": 69.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6365
+        },
+        {
+          "frame": 2100,
+          "time": "1:10",
+          "timestamp_seconds": 70.07,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 2114,
+          "time": "1:10",
+          "timestamp_seconds": 70.54,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6376
+        },
+        {
+          "frame": 2128,
+          "time": "1:11",
+          "timestamp_seconds": 71.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6358
+        },
+        {
+          "frame": 2142,
+          "time": "1:11",
+          "timestamp_seconds": 71.47,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6362
+        },
+        {
+          "frame": 2156,
+          "time": "1:11",
+          "timestamp_seconds": 71.94,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6364
+        },
+        {
+          "frame": 2170,
+          "time": "1:12",
+          "timestamp_seconds": 72.41,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 2184,
+          "time": "1:12",
+          "timestamp_seconds": 72.87,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6362
+        },
+        {
+          "frame": 2198,
+          "time": "1:13",
+          "timestamp_seconds": 73.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.316
+        },
+        {
+          "frame": 2212,
+          "time": "1:13",
+          "timestamp_seconds": 73.81,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.5525
+        },
+        {
+          "frame": 2226,
+          "time": "1:14",
+          "timestamp_seconds": 74.27,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.8216
+        },
+        {
+          "frame": 2240,
+          "time": "1:14",
+          "timestamp_seconds": 74.74,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9281
+        },
+        {
+          "frame": 2254,
+          "time": "1:15",
+          "timestamp_seconds": 75.21,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6413
+        },
+        {
+          "frame": 2268,
+          "time": "1:15",
+          "timestamp_seconds": 75.68,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.8946
+        },
+        {
+          "frame": 2282,
+          "time": "1:16",
+          "timestamp_seconds": 76.14,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.8396
+        },
+        {
+          "frame": 2296,
+          "time": "1:16",
+          "timestamp_seconds": 76.61,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.9014
+        },
+        {
+          "frame": 2310,
+          "time": "1:17",
+          "timestamp_seconds": 77.08,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.5646
+        },
+        {
+          "frame": 2324,
+          "time": "1:17",
+          "timestamp_seconds": 77.54,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.4371
+        },
+        {
+          "frame": 2338,
+          "time": "1:18",
+          "timestamp_seconds": 78.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.4338
+        },
+        {
+          "frame": 2352,
+          "time": "1:18",
+          "timestamp_seconds": 78.48,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6598
+        },
+        {
+          "frame": 2366,
+          "time": "1:18",
+          "timestamp_seconds": 78.95,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6591
+        },
+        {
+          "frame": 2380,
+          "time": "1:19",
+          "timestamp_seconds": 79.41,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6598
+        },
+        {
+          "frame": 2394,
+          "time": "1:19",
+          "timestamp_seconds": 79.88,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6588
+        },
+        {
+          "frame": 2408,
+          "time": "1:20",
+          "timestamp_seconds": 80.35,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6708
+        },
+        {
+          "frame": 2422,
+          "time": "1:20",
+          "timestamp_seconds": 80.81,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6692
+        },
+        {
+          "frame": 2436,
+          "time": "1:21",
+          "timestamp_seconds": 81.28,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6701
+        },
+        {
+          "frame": 2450,
+          "time": "1:21",
+          "timestamp_seconds": 81.75,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6637
+        },
+        {
+          "frame": 2464,
+          "time": "1:22",
+          "timestamp_seconds": 82.22,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.2512
+        },
+        {
+          "frame": 2478,
+          "time": "1:22",
+          "timestamp_seconds": 82.68,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.5264
+        },
+        {
+          "frame": 2492,
+          "time": "1:23",
+          "timestamp_seconds": 83.15,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6603
+        },
+        {
+          "frame": 2506,
+          "time": "1:23",
+          "timestamp_seconds": 83.62,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6679
+        },
+        {
+          "frame": 2520,
+          "time": "1:24",
+          "timestamp_seconds": 84.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6656
+        },
+        {
+          "frame": 2534,
+          "time": "1:24",
+          "timestamp_seconds": 84.55,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7434
+        },
+        {
+          "frame": 2548,
+          "time": "1:25",
+          "timestamp_seconds": 85.02,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7729
+        },
+        {
+          "frame": 2562,
+          "time": "1:25",
+          "timestamp_seconds": 85.49,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7447
+        },
+        {
+          "frame": 2576,
+          "time": "1:25",
+          "timestamp_seconds": 85.95,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6903
+        },
+        {
+          "frame": 2590,
+          "time": "1:26",
+          "timestamp_seconds": 86.42,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.672
+        },
+        {
+          "frame": 2604,
+          "time": "1:26",
+          "timestamp_seconds": 86.89,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6676
+        },
+        {
+          "frame": 2618,
+          "time": "1:27",
+          "timestamp_seconds": 87.35,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6672
+        },
+        {
+          "frame": 2632,
+          "time": "1:27",
+          "timestamp_seconds": 87.82,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6687
+        },
+        {
+          "frame": 2646,
+          "time": "1:28",
+          "timestamp_seconds": 88.29,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.668
+        },
+        {
+          "frame": 2660,
+          "time": "1:28",
+          "timestamp_seconds": 88.76,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.7844
+        },
+        {
+          "frame": 2674,
+          "time": "1:29",
+          "timestamp_seconds": 89.22,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6696
+        },
+        {
+          "frame": 2688,
+          "time": "1:29",
+          "timestamp_seconds": 89.69,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6694
+        }
+      ]
+    },
+    "svm_rbf": {
+      "label_names": [
+        "bowl/empty",
+        "bowl/with-whisked-egg",
+        "butter/solid",
+        "eggs/omelette",
+        "eggs/raw",
+        "eggs/whisked",
+        "oil/general",
+        "pan/empty",
+        "pan/with-food",
+        "pepper/ground",
+        "plate/empty",
+        "plate/with-food"
+      ],
+      "per_frame": [
+        {
+          "frame": 0,
+          "time": "0:00",
+          "timestamp_seconds": 0.0,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.6484
+        },
+        {
+          "frame": 14,
+          "time": "0:00",
+          "timestamp_seconds": 0.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6412
+        },
+        {
+          "frame": 28,
+          "time": "0:00",
+          "timestamp_seconds": 0.93,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.646
+        },
+        {
+          "frame": 42,
+          "time": "0:01",
+          "timestamp_seconds": 1.4,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6393
+        },
+        {
+          "frame": 56,
+          "time": "0:01",
+          "timestamp_seconds": 1.87,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6403
+        },
+        {
+          "frame": 70,
+          "time": "0:02",
+          "timestamp_seconds": 2.34,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.642
+        },
+        {
+          "frame": 84,
+          "time": "0:02",
+          "timestamp_seconds": 2.8,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6427
+        },
+        {
+          "frame": 98,
+          "time": "0:03",
+          "timestamp_seconds": 3.27,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6425
+        },
+        {
+          "frame": 112,
+          "time": "0:03",
+          "timestamp_seconds": 3.74,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6426
+        },
+        {
+          "frame": 126,
+          "time": "0:04",
+          "timestamp_seconds": 4.2,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6414
+        },
+        {
+          "frame": 140,
+          "time": "0:04",
+          "timestamp_seconds": 4.67,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6402
+        },
+        {
+          "frame": 154,
+          "time": "0:05",
+          "timestamp_seconds": 5.14,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6395
+        },
+        {
+          "frame": 168,
+          "time": "0:05",
+          "timestamp_seconds": 5.61,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6396
+        },
+        {
+          "frame": 182,
+          "time": "0:06",
+          "timestamp_seconds": 6.07,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6411
+        },
+        {
+          "frame": 196,
+          "time": "0:06",
+          "timestamp_seconds": 6.54,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6391
+        },
+        {
+          "frame": 210,
+          "time": "0:07",
+          "timestamp_seconds": 7.01,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.642
+        },
+        {
+          "frame": 224,
+          "time": "0:07",
+          "timestamp_seconds": 7.47,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6486
+        },
+        {
+          "frame": 238,
+          "time": "0:07",
+          "timestamp_seconds": 7.94,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6409
+        },
+        {
+          "frame": 252,
+          "time": "0:08",
+          "timestamp_seconds": 8.41,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6387
+        },
+        {
+          "frame": 266,
+          "time": "0:08",
+          "timestamp_seconds": 8.88,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6381
+        },
+        {
+          "frame": 280,
+          "time": "0:09",
+          "timestamp_seconds": 9.34,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 294,
+          "time": "0:09",
+          "timestamp_seconds": 9.81,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6368
+        },
+        {
+          "frame": 308,
+          "time": "0:10",
+          "timestamp_seconds": 10.28,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6345
+        },
+        {
+          "frame": 322,
+          "time": "0:10",
+          "timestamp_seconds": 10.74,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6407
+        },
+        {
+          "frame": 336,
+          "time": "0:11",
+          "timestamp_seconds": 11.21,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 350,
+          "time": "0:11",
+          "timestamp_seconds": 11.68,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6416
+        },
+        {
+          "frame": 364,
+          "time": "0:12",
+          "timestamp_seconds": 12.15,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6412
+        },
+        {
+          "frame": 378,
+          "time": "0:12",
+          "timestamp_seconds": 12.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6525
+        },
+        {
+          "frame": 392,
+          "time": "0:13",
+          "timestamp_seconds": 13.08,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6388
+        },
+        {
+          "frame": 406,
+          "time": "0:13",
+          "timestamp_seconds": 13.55,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6401
+        },
+        {
+          "frame": 420,
+          "time": "0:14",
+          "timestamp_seconds": 14.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6645
+        },
+        {
+          "frame": 434,
+          "time": "0:14",
+          "timestamp_seconds": 14.48,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6709
+        },
+        {
+          "frame": 448,
+          "time": "0:14",
+          "timestamp_seconds": 14.95,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.3177
+        },
+        {
+          "frame": 462,
+          "time": "0:15",
+          "timestamp_seconds": 15.42,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.3187
+        },
+        {
+          "frame": 476,
+          "time": "0:15",
+          "timestamp_seconds": 15.88,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6421
+        },
+        {
+          "frame": 490,
+          "time": "0:16",
+          "timestamp_seconds": 16.35,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.641
+        },
+        {
+          "frame": 504,
+          "time": "0:16",
+          "timestamp_seconds": 16.82,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6381
+        },
+        {
+          "frame": 518,
+          "time": "0:17",
+          "timestamp_seconds": 17.28,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.644
+        },
+        {
+          "frame": 532,
+          "time": "0:17",
+          "timestamp_seconds": 17.75,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6466
+        },
+        {
+          "frame": 546,
+          "time": "0:18",
+          "timestamp_seconds": 18.22,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6465
+        },
+        {
+          "frame": 560,
+          "time": "0:18",
+          "timestamp_seconds": 18.69,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6466
+        },
+        {
+          "frame": 574,
+          "time": "0:19",
+          "timestamp_seconds": 19.15,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6467
+        },
+        {
+          "frame": 588,
+          "time": "0:19",
+          "timestamp_seconds": 19.62,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6468
+        },
+        {
+          "frame": 602,
+          "time": "0:20",
+          "timestamp_seconds": 20.09,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6468
+        },
+        {
+          "frame": 616,
+          "time": "0:20",
+          "timestamp_seconds": 20.55,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6342
+        },
+        {
+          "frame": 630,
+          "time": "0:21",
+          "timestamp_seconds": 21.02,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6417
+        },
+        {
+          "frame": 644,
+          "time": "0:21",
+          "timestamp_seconds": 21.49,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6425
+        },
+        {
+          "frame": 658,
+          "time": "0:21",
+          "timestamp_seconds": 21.96,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6462
+        },
+        {
+          "frame": 672,
+          "time": "0:22",
+          "timestamp_seconds": 22.42,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6379
+        },
+        {
+          "frame": 686,
+          "time": "0:22",
+          "timestamp_seconds": 22.89,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7574
+        },
+        {
+          "frame": 700,
+          "time": "0:23",
+          "timestamp_seconds": 23.36,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6396
+        },
+        {
+          "frame": 714,
+          "time": "0:23",
+          "timestamp_seconds": 23.82,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6424
+        },
+        {
+          "frame": 728,
+          "time": "0:24",
+          "timestamp_seconds": 24.29,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6461
+        },
+        {
+          "frame": 742,
+          "time": "0:24",
+          "timestamp_seconds": 24.76,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.6367
+        },
+        {
+          "frame": 756,
+          "time": "0:25",
+          "timestamp_seconds": 25.23,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6421
+        },
+        {
+          "frame": 770,
+          "time": "0:25",
+          "timestamp_seconds": 25.69,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6412
+        },
+        {
+          "frame": 784,
+          "time": "0:26",
+          "timestamp_seconds": 26.16,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.641
+        },
+        {
+          "frame": 798,
+          "time": "0:26",
+          "timestamp_seconds": 26.63,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6429
+        },
+        {
+          "frame": 812,
+          "time": "0:27",
+          "timestamp_seconds": 27.09,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6378
+        },
+        {
+          "frame": 826,
+          "time": "0:27",
+          "timestamp_seconds": 27.56,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6405
+        },
+        {
+          "frame": 840,
+          "time": "0:28",
+          "timestamp_seconds": 28.03,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6398
+        },
+        {
+          "frame": 854,
+          "time": "0:28",
+          "timestamp_seconds": 28.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6397
+        },
+        {
+          "frame": 868,
+          "time": "0:28",
+          "timestamp_seconds": 28.96,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6391
+        },
+        {
+          "frame": 882,
+          "time": "0:29",
+          "timestamp_seconds": 29.43,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6398
+        },
+        {
+          "frame": 896,
+          "time": "0:29",
+          "timestamp_seconds": 29.9,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6348
+        },
+        {
+          "frame": 910,
+          "time": "0:30",
+          "timestamp_seconds": 30.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.641
+        },
+        {
+          "frame": 924,
+          "time": "0:30",
+          "timestamp_seconds": 30.83,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6441
+        },
+        {
+          "frame": 938,
+          "time": "0:31",
+          "timestamp_seconds": 31.3,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 952,
+          "time": "0:31",
+          "timestamp_seconds": 31.77,
+          "predicted_class": "oil/general",
+          "predicted_index": 6,
+          "confidence": 0.6548
+        },
+        {
+          "frame": 966,
+          "time": "0:32",
+          "timestamp_seconds": 32.23,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6414
+        },
+        {
+          "frame": 980,
+          "time": "0:32",
+          "timestamp_seconds": 32.7,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6424
+        },
+        {
+          "frame": 994,
+          "time": "0:33",
+          "timestamp_seconds": 33.17,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6426
+        },
+        {
+          "frame": 1008,
+          "time": "0:33",
+          "timestamp_seconds": 33.63,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6423
+        },
+        {
+          "frame": 1022,
+          "time": "0:34",
+          "timestamp_seconds": 34.1,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7055
+        },
+        {
+          "frame": 1036,
+          "time": "0:34",
+          "timestamp_seconds": 34.57,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6351
+        },
+        {
+          "frame": 1050,
+          "time": "0:35",
+          "timestamp_seconds": 35.04,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7019
+        },
+        {
+          "frame": 1064,
+          "time": "0:35",
+          "timestamp_seconds": 35.5,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6364
+        },
+        {
+          "frame": 1078,
+          "time": "0:35",
+          "timestamp_seconds": 35.97,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6388
+        },
+        {
+          "frame": 1092,
+          "time": "0:36",
+          "timestamp_seconds": 36.44,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6384
+        },
+        {
+          "frame": 1106,
+          "time": "0:36",
+          "timestamp_seconds": 36.9,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7062
+        },
+        {
+          "frame": 1120,
+          "time": "0:37",
+          "timestamp_seconds": 37.37,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6352
+        },
+        {
+          "frame": 1134,
+          "time": "0:37",
+          "timestamp_seconds": 37.84,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6357
+        },
+        {
+          "frame": 1148,
+          "time": "0:38",
+          "timestamp_seconds": 38.3,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6353
+        },
+        {
+          "frame": 1162,
+          "time": "0:38",
+          "timestamp_seconds": 38.77,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 1176,
+          "time": "0:39",
+          "timestamp_seconds": 39.24,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6361
+        },
+        {
+          "frame": 1190,
+          "time": "0:39",
+          "timestamp_seconds": 39.71,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.636
+        },
+        {
+          "frame": 1204,
+          "time": "0:40",
+          "timestamp_seconds": 40.17,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 1218,
+          "time": "0:40",
+          "timestamp_seconds": 40.64,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6377
+        },
+        {
+          "frame": 1232,
+          "time": "0:41",
+          "timestamp_seconds": 41.11,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 1246,
+          "time": "0:41",
+          "timestamp_seconds": 41.57,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6376
+        },
+        {
+          "frame": 1260,
+          "time": "0:42",
+          "timestamp_seconds": 42.04,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6378
+        },
+        {
+          "frame": 1274,
+          "time": "0:42",
+          "timestamp_seconds": 42.51,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6375
+        },
+        {
+          "frame": 1288,
+          "time": "0:42",
+          "timestamp_seconds": 42.98,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.637
+        },
+        {
+          "frame": 1302,
+          "time": "0:43",
+          "timestamp_seconds": 43.44,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6364
+        },
+        {
+          "frame": 1316,
+          "time": "0:43",
+          "timestamp_seconds": 43.91,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6371
+        },
+        {
+          "frame": 1330,
+          "time": "0:44",
+          "timestamp_seconds": 44.38,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3606
+        },
+        {
+          "frame": 1344,
+          "time": "0:44",
+          "timestamp_seconds": 44.84,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3158
+        },
+        {
+          "frame": 1358,
+          "time": "0:45",
+          "timestamp_seconds": 45.31,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6381
+        },
+        {
+          "frame": 1372,
+          "time": "0:45",
+          "timestamp_seconds": 45.78,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6373
+        },
+        {
+          "frame": 1386,
+          "time": "0:46",
+          "timestamp_seconds": 46.25,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6349
+        },
+        {
+          "frame": 1400,
+          "time": "0:46",
+          "timestamp_seconds": 46.71,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.637
+        },
+        {
+          "frame": 1414,
+          "time": "0:47",
+          "timestamp_seconds": 47.18,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.701
+        },
+        {
+          "frame": 1428,
+          "time": "0:47",
+          "timestamp_seconds": 47.65,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6335
+        },
+        {
+          "frame": 1442,
+          "time": "0:48",
+          "timestamp_seconds": 48.11,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.3598
+        },
+        {
+          "frame": 1456,
+          "time": "0:48",
+          "timestamp_seconds": 48.58,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.3589
+        },
+        {
+          "frame": 1470,
+          "time": "0:49",
+          "timestamp_seconds": 49.05,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.3591
+        },
+        {
+          "frame": 1484,
+          "time": "0:49",
+          "timestamp_seconds": 49.52,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6353
+        },
+        {
+          "frame": 1498,
+          "time": "0:49",
+          "timestamp_seconds": 49.98,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3607
+        },
+        {
+          "frame": 1512,
+          "time": "0:50",
+          "timestamp_seconds": 50.45,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3148
+        },
+        {
+          "frame": 1526,
+          "time": "0:50",
+          "timestamp_seconds": 50.92,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3136
+        },
+        {
+          "frame": 1540,
+          "time": "0:51",
+          "timestamp_seconds": 51.38,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6375
+        },
+        {
+          "frame": 1554,
+          "time": "0:51",
+          "timestamp_seconds": 51.85,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3143
+        },
+        {
+          "frame": 1568,
+          "time": "0:52",
+          "timestamp_seconds": 52.32,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 1582,
+          "time": "0:52",
+          "timestamp_seconds": 52.79,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6374
+        },
+        {
+          "frame": 1596,
+          "time": "0:53",
+          "timestamp_seconds": 53.25,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6376
+        },
+        {
+          "frame": 1610,
+          "time": "0:53",
+          "timestamp_seconds": 53.72,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6379
+        },
+        {
+          "frame": 1624,
+          "time": "0:54",
+          "timestamp_seconds": 54.19,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.639
+        },
+        {
+          "frame": 1638,
+          "time": "0:54",
+          "timestamp_seconds": 54.65,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.639
+        },
+        {
+          "frame": 1652,
+          "time": "0:55",
+          "timestamp_seconds": 55.12,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 1666,
+          "time": "0:55",
+          "timestamp_seconds": 55.59,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.637
+        },
+        {
+          "frame": 1680,
+          "time": "0:56",
+          "timestamp_seconds": 56.06,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.638
+        },
+        {
+          "frame": 1694,
+          "time": "0:56",
+          "timestamp_seconds": 56.52,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6335
+        },
+        {
+          "frame": 1708,
+          "time": "0:56",
+          "timestamp_seconds": 56.99,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6353
+        },
+        {
+          "frame": 1722,
+          "time": "0:57",
+          "timestamp_seconds": 57.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.635
+        },
+        {
+          "frame": 1736,
+          "time": "0:57",
+          "timestamp_seconds": 57.92,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6356
+        },
+        {
+          "frame": 1750,
+          "time": "0:58",
+          "timestamp_seconds": 58.39,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6346
+        },
+        {
+          "frame": 1764,
+          "time": "0:58",
+          "timestamp_seconds": 58.86,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6375
+        },
+        {
+          "frame": 1778,
+          "time": "0:59",
+          "timestamp_seconds": 59.33,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6352
+        },
+        {
+          "frame": 1792,
+          "time": "0:59",
+          "timestamp_seconds": 59.79,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6601
+        },
+        {
+          "frame": 1806,
+          "time": "1:00",
+          "timestamp_seconds": 60.26,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.7298
+        },
+        {
+          "frame": 1820,
+          "time": "1:00",
+          "timestamp_seconds": 60.73,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6373
+        },
+        {
+          "frame": 1834,
+          "time": "1:01",
+          "timestamp_seconds": 61.19,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6366
+        },
+        {
+          "frame": 1848,
+          "time": "1:01",
+          "timestamp_seconds": 61.66,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6359
+        },
+        {
+          "frame": 1862,
+          "time": "1:02",
+          "timestamp_seconds": 62.13,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6376
+        },
+        {
+          "frame": 1876,
+          "time": "1:02",
+          "timestamp_seconds": 62.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6333
+        },
+        {
+          "frame": 1890,
+          "time": "1:03",
+          "timestamp_seconds": 63.06,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6365
+        },
+        {
+          "frame": 1904,
+          "time": "1:03",
+          "timestamp_seconds": 63.53,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6357
+        },
+        {
+          "frame": 1918,
+          "time": "1:03",
+          "timestamp_seconds": 64.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6397
+        },
+        {
+          "frame": 1932,
+          "time": "1:04",
+          "timestamp_seconds": 64.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6386
+        },
+        {
+          "frame": 1946,
+          "time": "1:04",
+          "timestamp_seconds": 64.93,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.639
+        },
+        {
+          "frame": 1960,
+          "time": "1:05",
+          "timestamp_seconds": 65.4,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6383
+        },
+        {
+          "frame": 1974,
+          "time": "1:05",
+          "timestamp_seconds": 65.87,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6364
+        },
+        {
+          "frame": 1988,
+          "time": "1:06",
+          "timestamp_seconds": 66.33,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6339
+        },
+        {
+          "frame": 2002,
+          "time": "1:06",
+          "timestamp_seconds": 66.8,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6368
+        },
+        {
+          "frame": 2016,
+          "time": "1:07",
+          "timestamp_seconds": 67.27,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7045
+        },
+        {
+          "frame": 2030,
+          "time": "1:07",
+          "timestamp_seconds": 67.73,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6343
+        },
+        {
+          "frame": 2044,
+          "time": "1:08",
+          "timestamp_seconds": 68.2,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6398
+        },
+        {
+          "frame": 2058,
+          "time": "1:08",
+          "timestamp_seconds": 68.67,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.6388
+        },
+        {
+          "frame": 2072,
+          "time": "1:09",
+          "timestamp_seconds": 69.14,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6375
+        },
+        {
+          "frame": 2086,
+          "time": "1:09",
+          "timestamp_seconds": 69.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6389
+        },
+        {
+          "frame": 2100,
+          "time": "1:10",
+          "timestamp_seconds": 70.07,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6389
+        },
+        {
+          "frame": 2114,
+          "time": "1:10",
+          "timestamp_seconds": 70.54,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6386
+        },
+        {
+          "frame": 2128,
+          "time": "1:11",
+          "timestamp_seconds": 71.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6381
+        },
+        {
+          "frame": 2142,
+          "time": "1:11",
+          "timestamp_seconds": 71.47,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6384
+        },
+        {
+          "frame": 2156,
+          "time": "1:11",
+          "timestamp_seconds": 71.94,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6385
+        },
+        {
+          "frame": 2170,
+          "time": "1:12",
+          "timestamp_seconds": 72.41,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6386
+        },
+        {
+          "frame": 2184,
+          "time": "1:12",
+          "timestamp_seconds": 72.87,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6354
+        },
+        {
+          "frame": 2198,
+          "time": "1:13",
+          "timestamp_seconds": 73.34,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.3142
+        },
+        {
+          "frame": 2212,
+          "time": "1:13",
+          "timestamp_seconds": 73.81,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6317
+        },
+        {
+          "frame": 2226,
+          "time": "1:14",
+          "timestamp_seconds": 74.27,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.638
+        },
+        {
+          "frame": 2240,
+          "time": "1:14",
+          "timestamp_seconds": 74.74,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.4607
+        },
+        {
+          "frame": 2254,
+          "time": "1:15",
+          "timestamp_seconds": 75.21,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.6466
+        },
+        {
+          "frame": 2268,
+          "time": "1:15",
+          "timestamp_seconds": 75.68,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.7776
+        },
+        {
+          "frame": 2282,
+          "time": "1:16",
+          "timestamp_seconds": 76.14,
+          "predicted_class": "pan/empty",
+          "predicted_index": 7,
+          "confidence": 0.764
+        },
+        {
+          "frame": 2296,
+          "time": "1:16",
+          "timestamp_seconds": 76.61,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6317
+        },
+        {
+          "frame": 2310,
+          "time": "1:17",
+          "timestamp_seconds": 77.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6437
+        },
+        {
+          "frame": 2324,
+          "time": "1:17",
+          "timestamp_seconds": 77.54,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.7085
+        },
+        {
+          "frame": 2338,
+          "time": "1:18",
+          "timestamp_seconds": 78.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6513
+        },
+        {
+          "frame": 2352,
+          "time": "1:18",
+          "timestamp_seconds": 78.48,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.635
+        },
+        {
+          "frame": 2366,
+          "time": "1:18",
+          "timestamp_seconds": 78.95,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6337
+        },
+        {
+          "frame": 2380,
+          "time": "1:19",
+          "timestamp_seconds": 79.41,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6383
+        },
+        {
+          "frame": 2394,
+          "time": "1:19",
+          "timestamp_seconds": 79.88,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.639
+        },
+        {
+          "frame": 2408,
+          "time": "1:20",
+          "timestamp_seconds": 80.35,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6378
+        },
+        {
+          "frame": 2422,
+          "time": "1:20",
+          "timestamp_seconds": 80.81,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.637
+        },
+        {
+          "frame": 2436,
+          "time": "1:21",
+          "timestamp_seconds": 81.28,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6377
+        },
+        {
+          "frame": 2450,
+          "time": "1:21",
+          "timestamp_seconds": 81.75,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.6628
+        },
+        {
+          "frame": 2464,
+          "time": "1:22",
+          "timestamp_seconds": 82.22,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.6351
+        },
+        {
+          "frame": 2478,
+          "time": "1:22",
+          "timestamp_seconds": 82.68,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.6356
+        },
+        {
+          "frame": 2492,
+          "time": "1:23",
+          "timestamp_seconds": 83.15,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6421
+        },
+        {
+          "frame": 2506,
+          "time": "1:23",
+          "timestamp_seconds": 83.62,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6438
+        },
+        {
+          "frame": 2520,
+          "time": "1:24",
+          "timestamp_seconds": 84.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6768
+        },
+        {
+          "frame": 2534,
+          "time": "1:24",
+          "timestamp_seconds": 84.55,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6406
+        },
+        {
+          "frame": 2548,
+          "time": "1:25",
+          "timestamp_seconds": 85.02,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6419
+        },
+        {
+          "frame": 2562,
+          "time": "1:25",
+          "timestamp_seconds": 85.49,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6416
+        },
+        {
+          "frame": 2576,
+          "time": "1:25",
+          "timestamp_seconds": 85.95,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6708
+        },
+        {
+          "frame": 2590,
+          "time": "1:26",
+          "timestamp_seconds": 86.42,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7094
+        },
+        {
+          "frame": 2604,
+          "time": "1:26",
+          "timestamp_seconds": 86.89,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7067
+        },
+        {
+          "frame": 2618,
+          "time": "1:27",
+          "timestamp_seconds": 87.35,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7333
+        },
+        {
+          "frame": 2632,
+          "time": "1:27",
+          "timestamp_seconds": 87.82,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.6438
+        },
+        {
+          "frame": 2646,
+          "time": "1:28",
+          "timestamp_seconds": 88.29,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7359
+        },
+        {
+          "frame": 2660,
+          "time": "1:28",
+          "timestamp_seconds": 88.76,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.736
+        },
+        {
+          "frame": 2674,
+          "time": "1:29",
+          "timestamp_seconds": 89.22,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.7358
+        },
+        {
+          "frame": 2688,
+          "time": "1:29",
+          "timestamp_seconds": 89.69,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.736
+        }
+      ]
+    },
+    "dec": {
+      "label_names": [
+        "bowl/empty",
+        "bowl/with-whisked-egg",
+        "butter/solid",
+        "eggs/omelette",
+        "eggs/raw",
+        "eggs/whisked",
+        "oil/general",
+        "pan/empty",
+        "pan/with-food",
+        "pepper/ground",
+        "plate/empty",
+        "plate/with-food"
+      ],
+      "per_frame": [
+        {
+          "frame": 0,
+          "time": "0:00",
+          "timestamp_seconds": 0.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0921
+        },
+        {
+          "frame": 14,
+          "time": "0:00",
+          "timestamp_seconds": 0.47,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0959
+        },
+        {
+          "frame": 28,
+          "time": "0:00",
+          "timestamp_seconds": 0.93,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0933
+        },
+        {
+          "frame": 42,
+          "time": "0:01",
+          "timestamp_seconds": 1.4,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1139
+        },
+        {
+          "frame": 56,
+          "time": "0:01",
+          "timestamp_seconds": 1.87,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1018
+        },
+        {
+          "frame": 70,
+          "time": "0:02",
+          "timestamp_seconds": 2.34,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1147
+        },
+        {
+          "frame": 84,
+          "time": "0:02",
+          "timestamp_seconds": 2.8,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.0959
+        },
+        {
+          "frame": 98,
+          "time": "0:03",
+          "timestamp_seconds": 3.27,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.096
+        },
+        {
+          "frame": 112,
+          "time": "0:03",
+          "timestamp_seconds": 3.74,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.0972
+        },
+        {
+          "frame": 126,
+          "time": "0:04",
+          "timestamp_seconds": 4.2,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0983
+        },
+        {
+          "frame": 140,
+          "time": "0:04",
+          "timestamp_seconds": 4.67,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0971
+        },
+        {
+          "frame": 154,
+          "time": "0:05",
+          "timestamp_seconds": 5.14,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.099
+        },
+        {
+          "frame": 168,
+          "time": "0:05",
+          "timestamp_seconds": 5.61,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1002
+        },
+        {
+          "frame": 182,
+          "time": "0:06",
+          "timestamp_seconds": 6.07,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1027
+        },
+        {
+          "frame": 196,
+          "time": "0:06",
+          "timestamp_seconds": 6.54,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0947
+        },
+        {
+          "frame": 210,
+          "time": "0:07",
+          "timestamp_seconds": 7.01,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0974
+        },
+        {
+          "frame": 224,
+          "time": "0:07",
+          "timestamp_seconds": 7.47,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.119
+        },
+        {
+          "frame": 238,
+          "time": "0:07",
+          "timestamp_seconds": 7.94,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.0943
+        },
+        {
+          "frame": 252,
+          "time": "0:08",
+          "timestamp_seconds": 8.41,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1148
+        },
+        {
+          "frame": 266,
+          "time": "0:08",
+          "timestamp_seconds": 8.88,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1065
+        },
+        {
+          "frame": 280,
+          "time": "0:09",
+          "timestamp_seconds": 9.34,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1019
+        },
+        {
+          "frame": 294,
+          "time": "0:09",
+          "timestamp_seconds": 9.81,
+          "predicted_class": "plate/with-food",
+          "predicted_index": 11,
+          "confidence": 0.1007
+        },
+        {
+          "frame": 308,
+          "time": "0:10",
+          "timestamp_seconds": 10.28,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1017
+        },
+        {
+          "frame": 322,
+          "time": "0:10",
+          "timestamp_seconds": 10.74,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.102
+        },
+        {
+          "frame": 336,
+          "time": "0:11",
+          "timestamp_seconds": 11.21,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1027
+        },
+        {
+          "frame": 350,
+          "time": "0:11",
+          "timestamp_seconds": 11.68,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0882
+        },
+        {
+          "frame": 364,
+          "time": "0:12",
+          "timestamp_seconds": 12.15,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0975
+        },
+        {
+          "frame": 378,
+          "time": "0:12",
+          "timestamp_seconds": 12.61,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.0935
+        },
+        {
+          "frame": 392,
+          "time": "0:13",
+          "timestamp_seconds": 13.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0966
+        },
+        {
+          "frame": 406,
+          "time": "0:13",
+          "timestamp_seconds": 13.55,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.0889
+        },
+        {
+          "frame": 420,
+          "time": "0:14",
+          "timestamp_seconds": 14.01,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.0907
+        },
+        {
+          "frame": 434,
+          "time": "0:14",
+          "timestamp_seconds": 14.48,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0892
+        },
+        {
+          "frame": 448,
+          "time": "0:14",
+          "timestamp_seconds": 14.95,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0903
+        },
+        {
+          "frame": 462,
+          "time": "0:15",
+          "timestamp_seconds": 15.42,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0902
+        },
+        {
+          "frame": 476,
+          "time": "0:15",
+          "timestamp_seconds": 15.88,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0896
+        },
+        {
+          "frame": 490,
+          "time": "0:16",
+          "timestamp_seconds": 16.35,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.095
+        },
+        {
+          "frame": 504,
+          "time": "0:16",
+          "timestamp_seconds": 16.82,
+          "predicted_class": "plate/with-food",
+          "predicted_index": 11,
+          "confidence": 0.0939
+        },
+        {
+          "frame": 518,
+          "time": "0:17",
+          "timestamp_seconds": 17.28,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.119
+        },
+        {
+          "frame": 532,
+          "time": "0:17",
+          "timestamp_seconds": 17.75,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1272
+        },
+        {
+          "frame": 546,
+          "time": "0:18",
+          "timestamp_seconds": 18.22,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1261
+        },
+        {
+          "frame": 560,
+          "time": "0:18",
+          "timestamp_seconds": 18.69,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1278
+        },
+        {
+          "frame": 574,
+          "time": "0:19",
+          "timestamp_seconds": 19.15,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1273
+        },
+        {
+          "frame": 588,
+          "time": "0:19",
+          "timestamp_seconds": 19.62,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.127
+        },
+        {
+          "frame": 602,
+          "time": "0:20",
+          "timestamp_seconds": 20.09,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1264
+        },
+        {
+          "frame": 616,
+          "time": "0:20",
+          "timestamp_seconds": 20.55,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.0878
+        },
+        {
+          "frame": 630,
+          "time": "0:21",
+          "timestamp_seconds": 21.02,
+          "predicted_class": "plate/with-food",
+          "predicted_index": 11,
+          "confidence": 0.0886
+        },
+        {
+          "frame": 644,
+          "time": "0:21",
+          "timestamp_seconds": 21.49,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0958
+        },
+        {
+          "frame": 658,
+          "time": "0:21",
+          "timestamp_seconds": 21.96,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0971
+        },
+        {
+          "frame": 672,
+          "time": "0:22",
+          "timestamp_seconds": 22.42,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1104
+        },
+        {
+          "frame": 686,
+          "time": "0:22",
+          "timestamp_seconds": 22.89,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0942
+        },
+        {
+          "frame": 700,
+          "time": "0:23",
+          "timestamp_seconds": 23.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0975
+        },
+        {
+          "frame": 714,
+          "time": "0:23",
+          "timestamp_seconds": 23.82,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0906
+        },
+        {
+          "frame": 728,
+          "time": "0:24",
+          "timestamp_seconds": 24.29,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.0892
+        },
+        {
+          "frame": 742,
+          "time": "0:24",
+          "timestamp_seconds": 24.76,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0991
+        },
+        {
+          "frame": 756,
+          "time": "0:25",
+          "timestamp_seconds": 25.23,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0886
+        },
+        {
+          "frame": 770,
+          "time": "0:25",
+          "timestamp_seconds": 25.69,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.086
+        },
+        {
+          "frame": 784,
+          "time": "0:26",
+          "timestamp_seconds": 26.16,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0897
+        },
+        {
+          "frame": 798,
+          "time": "0:26",
+          "timestamp_seconds": 26.63,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0911
+        },
+        {
+          "frame": 812,
+          "time": "0:27",
+          "timestamp_seconds": 27.09,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1044
+        },
+        {
+          "frame": 826,
+          "time": "0:27",
+          "timestamp_seconds": 27.56,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1076
+        },
+        {
+          "frame": 840,
+          "time": "0:28",
+          "timestamp_seconds": 28.03,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1088
+        },
+        {
+          "frame": 854,
+          "time": "0:28",
+          "timestamp_seconds": 28.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1299
+        },
+        {
+          "frame": 868,
+          "time": "0:28",
+          "timestamp_seconds": 28.96,
+          "predicted_class": "pepper/ground",
+          "predicted_index": 9,
+          "confidence": 0.1204
+        },
+        {
+          "frame": 882,
+          "time": "0:29",
+          "timestamp_seconds": 29.43,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.127
+        },
+        {
+          "frame": 896,
+          "time": "0:29",
+          "timestamp_seconds": 29.9,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.0918
+        },
+        {
+          "frame": 910,
+          "time": "0:30",
+          "timestamp_seconds": 30.36,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.111
+        },
+        {
+          "frame": 924,
+          "time": "0:30",
+          "timestamp_seconds": 30.83,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.089
+        },
+        {
+          "frame": 938,
+          "time": "0:31",
+          "timestamp_seconds": 31.3,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0919
+        },
+        {
+          "frame": 952,
+          "time": "0:31",
+          "timestamp_seconds": 31.77,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0895
+        },
+        {
+          "frame": 966,
+          "time": "0:32",
+          "timestamp_seconds": 32.23,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1373
+        },
+        {
+          "frame": 980,
+          "time": "0:32",
+          "timestamp_seconds": 32.7,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1433
+        },
+        {
+          "frame": 994,
+          "time": "0:33",
+          "timestamp_seconds": 33.17,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1408
+        },
+        {
+          "frame": 1008,
+          "time": "0:33",
+          "timestamp_seconds": 33.63,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1395
+        },
+        {
+          "frame": 1022,
+          "time": "0:34",
+          "timestamp_seconds": 34.1,
+          "predicted_class": "plate/empty",
+          "predicted_index": 10,
+          "confidence": 0.1651
+        },
+        {
+          "frame": 1036,
+          "time": "0:34",
+          "timestamp_seconds": 34.57,
+          "predicted_class": "pepper/ground",
+          "predicted_index": 9,
+          "confidence": 0.1785
+        },
+        {
+          "frame": 1050,
+          "time": "0:35",
+          "timestamp_seconds": 35.04,
+          "predicted_class": "pepper/ground",
+          "predicted_index": 9,
+          "confidence": 0.1506
+        },
+        {
+          "frame": 1064,
+          "time": "0:35",
+          "timestamp_seconds": 35.5,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0915
+        },
+        {
+          "frame": 1078,
+          "time": "0:35",
+          "timestamp_seconds": 35.97,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.0982
+        },
+        {
+          "frame": 1092,
+          "time": "0:36",
+          "timestamp_seconds": 36.44,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.0933
+        },
+        {
+          "frame": 1106,
+          "time": "0:36",
+          "timestamp_seconds": 36.9,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1074
+        },
+        {
+          "frame": 1120,
+          "time": "0:37",
+          "timestamp_seconds": 37.37,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0847
+        },
+        {
+          "frame": 1134,
+          "time": "0:37",
+          "timestamp_seconds": 37.84,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1148,
+          "time": "0:38",
+          "timestamp_seconds": 38.3,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1162,
+          "time": "0:38",
+          "timestamp_seconds": 38.77,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1176,
+          "time": "0:39",
+          "timestamp_seconds": 39.24,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1190,
+          "time": "0:39",
+          "timestamp_seconds": 39.71,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1204,
+          "time": "0:40",
+          "timestamp_seconds": 40.17,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0847
+        },
+        {
+          "frame": 1218,
+          "time": "0:40",
+          "timestamp_seconds": 40.64,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0847
+        },
+        {
+          "frame": 1232,
+          "time": "0:41",
+          "timestamp_seconds": 41.11,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.1077
+        },
+        {
+          "frame": 1246,
+          "time": "0:41",
+          "timestamp_seconds": 41.57,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.102
+        },
+        {
+          "frame": 1260,
+          "time": "0:42",
+          "timestamp_seconds": 42.04,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.0986
+        },
+        {
+          "frame": 1274,
+          "time": "0:42",
+          "timestamp_seconds": 42.51,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.1035
+        },
+        {
+          "frame": 1288,
+          "time": "0:42",
+          "timestamp_seconds": 42.98,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.1099
+        },
+        {
+          "frame": 1302,
+          "time": "0:43",
+          "timestamp_seconds": 43.44,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.1181
+        },
+        {
+          "frame": 1316,
+          "time": "0:43",
+          "timestamp_seconds": 43.91,
+          "predicted_class": "pan/with-food",
+          "predicted_index": 8,
+          "confidence": 0.1122
+        },
+        {
+          "frame": 1330,
+          "time": "0:44",
+          "timestamp_seconds": 44.38,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0869
+        },
+        {
+          "frame": 1344,
+          "time": "0:44",
+          "timestamp_seconds": 44.84,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0855
+        },
+        {
+          "frame": 1358,
+          "time": "0:45",
+          "timestamp_seconds": 45.31,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0921
+        },
+        {
+          "frame": 1372,
+          "time": "0:45",
+          "timestamp_seconds": 45.78,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1042
+        },
+        {
+          "frame": 1386,
+          "time": "0:46",
+          "timestamp_seconds": 46.25,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0932
+        },
+        {
+          "frame": 1400,
+          "time": "0:46",
+          "timestamp_seconds": 46.71,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.089
+        },
+        {
+          "frame": 1414,
+          "time": "0:47",
+          "timestamp_seconds": 47.18,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0945
+        },
+        {
+          "frame": 1428,
+          "time": "0:47",
+          "timestamp_seconds": 47.65,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.0882
+        },
+        {
+          "frame": 1442,
+          "time": "0:48",
+          "timestamp_seconds": 48.11,
+          "predicted_class": "plate/with-food",
+          "predicted_index": 11,
+          "confidence": 0.092
+        },
+        {
+          "frame": 1456,
+          "time": "0:48",
+          "timestamp_seconds": 48.58,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1006
+        },
+        {
+          "frame": 1470,
+          "time": "0:49",
+          "timestamp_seconds": 49.05,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.1016
+        },
+        {
+          "frame": 1484,
+          "time": "0:49",
+          "timestamp_seconds": 49.52,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0909
+        },
+        {
+          "frame": 1498,
+          "time": "0:49",
+          "timestamp_seconds": 49.98,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0889
+        },
+        {
+          "frame": 1512,
+          "time": "0:50",
+          "timestamp_seconds": 50.45,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0874
+        },
+        {
+          "frame": 1526,
+          "time": "0:50",
+          "timestamp_seconds": 50.92,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0847
+        },
+        {
+          "frame": 1540,
+          "time": "0:51",
+          "timestamp_seconds": 51.38,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0853
+        },
+        {
+          "frame": 1554,
+          "time": "0:51",
+          "timestamp_seconds": 51.85,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.09
+        },
+        {
+          "frame": 1568,
+          "time": "0:52",
+          "timestamp_seconds": 52.32,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0851
+        },
+        {
+          "frame": 1582,
+          "time": "0:52",
+          "timestamp_seconds": 52.79,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.084
+        },
+        {
+          "frame": 1596,
+          "time": "0:53",
+          "timestamp_seconds": 53.25,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.084
+        },
+        {
+          "frame": 1610,
+          "time": "0:53",
+          "timestamp_seconds": 53.72,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0841
+        },
+        {
+          "frame": 1624,
+          "time": "0:54",
+          "timestamp_seconds": 54.19,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0867
+        },
+        {
+          "frame": 1638,
+          "time": "0:54",
+          "timestamp_seconds": 54.65,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0872
+        },
+        {
+          "frame": 1652,
+          "time": "0:55",
+          "timestamp_seconds": 55.12,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.085
+        },
+        {
+          "frame": 1666,
+          "time": "0:55",
+          "timestamp_seconds": 55.59,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.085
+        },
+        {
+          "frame": 1680,
+          "time": "0:56",
+          "timestamp_seconds": 56.06,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0856
+        },
+        {
+          "frame": 1694,
+          "time": "0:56",
+          "timestamp_seconds": 56.52,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 1708,
+          "time": "0:56",
+          "timestamp_seconds": 56.99,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 1722,
+          "time": "0:57",
+          "timestamp_seconds": 57.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0854
+        },
+        {
+          "frame": 1736,
+          "time": "0:57",
+          "timestamp_seconds": 57.92,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0844
+        },
+        {
+          "frame": 1750,
+          "time": "0:58",
+          "timestamp_seconds": 58.39,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0851
+        },
+        {
+          "frame": 1764,
+          "time": "0:58",
+          "timestamp_seconds": 58.86,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0841
+        },
+        {
+          "frame": 1778,
+          "time": "0:59",
+          "timestamp_seconds": 59.33,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.084
+        },
+        {
+          "frame": 1792,
+          "time": "0:59",
+          "timestamp_seconds": 59.79,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0841
+        },
+        {
+          "frame": 1806,
+          "time": "1:00",
+          "timestamp_seconds": 60.26,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 1820,
+          "time": "1:00",
+          "timestamp_seconds": 60.73,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 1834,
+          "time": "1:01",
+          "timestamp_seconds": 61.19,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 1848,
+          "time": "1:01",
+          "timestamp_seconds": 61.66,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0857
+        },
+        {
+          "frame": 1862,
+          "time": "1:02",
+          "timestamp_seconds": 62.13,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0848
+        },
+        {
+          "frame": 1876,
+          "time": "1:02",
+          "timestamp_seconds": 62.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0853
+        },
+        {
+          "frame": 1890,
+          "time": "1:03",
+          "timestamp_seconds": 63.06,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0849
+        },
+        {
+          "frame": 1904,
+          "time": "1:03",
+          "timestamp_seconds": 63.53,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0871
+        },
+        {
+          "frame": 1918,
+          "time": "1:03",
+          "timestamp_seconds": 64.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0874
+        },
+        {
+          "frame": 1932,
+          "time": "1:04",
+          "timestamp_seconds": 64.46,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0873
+        },
+        {
+          "frame": 1946,
+          "time": "1:04",
+          "timestamp_seconds": 64.93,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0867
+        },
+        {
+          "frame": 1960,
+          "time": "1:05",
+          "timestamp_seconds": 65.4,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0859
+        },
+        {
+          "frame": 1974,
+          "time": "1:05",
+          "timestamp_seconds": 65.87,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0868
+        },
+        {
+          "frame": 1988,
+          "time": "1:06",
+          "timestamp_seconds": 66.33,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0856
+        },
+        {
+          "frame": 2002,
+          "time": "1:06",
+          "timestamp_seconds": 66.8,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0885
+        },
+        {
+          "frame": 2016,
+          "time": "1:07",
+          "timestamp_seconds": 67.27,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0873
+        },
+        {
+          "frame": 2030,
+          "time": "1:07",
+          "timestamp_seconds": 67.73,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0873
+        },
+        {
+          "frame": 2044,
+          "time": "1:08",
+          "timestamp_seconds": 68.2,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0856
+        },
+        {
+          "frame": 2058,
+          "time": "1:08",
+          "timestamp_seconds": 68.67,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.086
+        },
+        {
+          "frame": 2072,
+          "time": "1:09",
+          "timestamp_seconds": 69.14,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2086,
+          "time": "1:09",
+          "timestamp_seconds": 69.6,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2100,
+          "time": "1:10",
+          "timestamp_seconds": 70.07,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2114,
+          "time": "1:10",
+          "timestamp_seconds": 70.54,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2128,
+          "time": "1:11",
+          "timestamp_seconds": 71.0,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2142,
+          "time": "1:11",
+          "timestamp_seconds": 71.47,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2156,
+          "time": "1:11",
+          "timestamp_seconds": 71.94,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2170,
+          "time": "1:12",
+          "timestamp_seconds": 72.41,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2184,
+          "time": "1:12",
+          "timestamp_seconds": 72.87,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0896
+        },
+        {
+          "frame": 2198,
+          "time": "1:13",
+          "timestamp_seconds": 73.34,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0871
+        },
+        {
+          "frame": 2212,
+          "time": "1:13",
+          "timestamp_seconds": 73.81,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0892
+        },
+        {
+          "frame": 2226,
+          "time": "1:14",
+          "timestamp_seconds": 74.27,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0944
+        },
+        {
+          "frame": 2240,
+          "time": "1:14",
+          "timestamp_seconds": 74.74,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0872
+        },
+        {
+          "frame": 2254,
+          "time": "1:15",
+          "timestamp_seconds": 75.21,
+          "predicted_class": "bowl/empty",
+          "predicted_index": 0,
+          "confidence": 0.0897
+        },
+        {
+          "frame": 2268,
+          "time": "1:15",
+          "timestamp_seconds": 75.68,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0881
+        },
+        {
+          "frame": 2282,
+          "time": "1:16",
+          "timestamp_seconds": 76.14,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0896
+        },
+        {
+          "frame": 2296,
+          "time": "1:16",
+          "timestamp_seconds": 76.61,
+          "predicted_class": "eggs/whisked",
+          "predicted_index": 5,
+          "confidence": 0.1275
+        },
+        {
+          "frame": 2310,
+          "time": "1:17",
+          "timestamp_seconds": 77.08,
+          "predicted_class": "pepper/ground",
+          "predicted_index": 9,
+          "confidence": 0.12
+        },
+        {
+          "frame": 2324,
+          "time": "1:17",
+          "timestamp_seconds": 77.54,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0885
+        },
+        {
+          "frame": 2338,
+          "time": "1:18",
+          "timestamp_seconds": 78.01,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0976
+        },
+        {
+          "frame": 2352,
+          "time": "1:18",
+          "timestamp_seconds": 78.48,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.1056
+        },
+        {
+          "frame": 2366,
+          "time": "1:18",
+          "timestamp_seconds": 78.95,
+          "predicted_class": "butter/solid",
+          "predicted_index": 2,
+          "confidence": 0.1046
+        },
+        {
+          "frame": 2380,
+          "time": "1:19",
+          "timestamp_seconds": 79.41,
+          "predicted_class": "bowl/with-whisked-egg",
+          "predicted_index": 1,
+          "confidence": 0.0956
+        },
+        {
+          "frame": 2394,
+          "time": "1:19",
+          "timestamp_seconds": 79.88,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 2408,
+          "time": "1:20",
+          "timestamp_seconds": 80.35,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0875
+        },
+        {
+          "frame": 2422,
+          "time": "1:20",
+          "timestamp_seconds": 80.81,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.084
+        },
+        {
+          "frame": 2436,
+          "time": "1:21",
+          "timestamp_seconds": 81.28,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2450,
+          "time": "1:21",
+          "timestamp_seconds": 81.75,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2464,
+          "time": "1:22",
+          "timestamp_seconds": 82.22,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2478,
+          "time": "1:22",
+          "timestamp_seconds": 82.68,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0849
+        },
+        {
+          "frame": 2492,
+          "time": "1:23",
+          "timestamp_seconds": 83.15,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2506,
+          "time": "1:23",
+          "timestamp_seconds": 83.62,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2520,
+          "time": "1:24",
+          "timestamp_seconds": 84.08,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2534,
+          "time": "1:24",
+          "timestamp_seconds": 84.55,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2548,
+          "time": "1:25",
+          "timestamp_seconds": 85.02,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0838
+        },
+        {
+          "frame": 2562,
+          "time": "1:25",
+          "timestamp_seconds": 85.49,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0837
+        },
+        {
+          "frame": 2576,
+          "time": "1:25",
+          "timestamp_seconds": 85.95,
+          "predicted_class": "plate/with-food",
+          "predicted_index": 11,
+          "confidence": 0.0873
+        },
+        {
+          "frame": 2590,
+          "time": "1:26",
+          "timestamp_seconds": 86.42,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0858
+        },
+        {
+          "frame": 2604,
+          "time": "1:26",
+          "timestamp_seconds": 86.89,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0845
+        },
+        {
+          "frame": 2618,
+          "time": "1:27",
+          "timestamp_seconds": 87.35,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0869
+        },
+        {
+          "frame": 2632,
+          "time": "1:27",
+          "timestamp_seconds": 87.82,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0842
+        },
+        {
+          "frame": 2646,
+          "time": "1:28",
+          "timestamp_seconds": 88.29,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0847
+        },
+        {
+          "frame": 2660,
+          "time": "1:28",
+          "timestamp_seconds": 88.76,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0846
+        },
+        {
+          "frame": 2674,
+          "time": "1:29",
+          "timestamp_seconds": 89.22,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0841
+        },
+        {
+          "frame": 2688,
+          "time": "1:29",
+          "timestamp_seconds": 89.69,
+          "predicted_class": "eggs/omelette",
+          "predicted_index": 3,
+          "confidence": 0.0842
+        }
+      ]
+    }
+  }
+}

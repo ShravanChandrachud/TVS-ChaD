@@ -1,0 +1,28 @@
+[
+    {
+        "egg": [
+            "raw",
+            "whisked",
+            "omelette",
+            "burned"
+        ],
+        "pan": [
+            "empty",
+            "with food"
+        ],
+        "butter": [
+            "solid",
+            "melted"
+        ],
+        "oil": [],
+        "pepper": [],
+        "plate": [
+            "empty",
+            "with food"
+        ],
+        "bowl": [
+            "empty",
+            "with whisked egg"
+        ]
+    }
+]

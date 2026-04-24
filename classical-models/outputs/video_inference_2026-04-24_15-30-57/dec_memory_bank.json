@@ -1,0 +1,110 @@
+{
+  "model": "dec",
+  "video": "test_h264.webm",
+  "fps_extract": 2,
+  "cosine_threshold": 0.9,
+  "total_frames_extracted": 193,
+  "change_frames_detected": 53,
+  "state_changes": 11,
+  "memory_bank": [
+    {
+      "time": "0:00",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "none",
+      "frame": 0,
+      "confidence": 0.092,
+      "timestamp_seconds": 0.0
+    },
+    {
+      "time": "0:01",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "none",
+      "frame": 56,
+      "confidence": 0.102,
+      "timestamp_seconds": 1.87
+    },
+    {
+      "time": "0:07",
+      "object": "butter",
+      "new_state": "solid",
+      "prev_state": "none",
+      "frame": 238,
+      "confidence": 0.094,
+      "timestamp_seconds": 7.94
+    },
+    {
+      "time": "0:35",
+      "object": "bowl",
+      "new_state": "empty",
+      "prev_state": "with-whisked-egg",
+      "frame": 1078,
+      "confidence": 0.098,
+      "timestamp_seconds": 35.97
+    },
+    {
+      "time": "0:41",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "omelette",
+      "frame": 1232,
+      "confidence": 0.108,
+      "timestamp_seconds": 41.11
+    },
+    {
+      "time": "0:44",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1330,
+      "confidence": 0.087,
+      "timestamp_seconds": 44.38
+    },
+    {
+      "time": "1:16",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "omelette",
+      "frame": 2296,
+      "confidence": 0.127,
+      "timestamp_seconds": 76.61
+    },
+    {
+      "time": "1:17",
+      "object": "pepper",
+      "new_state": "ground",
+      "prev_state": "none",
+      "frame": 2310,
+      "confidence": 0.12,
+      "timestamp_seconds": 77.08
+    },
+    {
+      "time": "1:19",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "empty",
+      "frame": 2380,
+      "confidence": 0.096,
+      "timestamp_seconds": 79.41
+    },
+    {
+      "time": "1:20",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 2422,
+      "confidence": 0.084,
+      "timestamp_seconds": 80.81
+    },
+    {
+      "time": "1:25",
+      "object": "plate",
+      "new_state": "with-food",
+      "prev_state": "none",
+      "frame": 2576,
+      "confidence": 0.087,
+      "timestamp_seconds": 85.95
+    }
+  ]
+}

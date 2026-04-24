@@ -1,0 +1,119 @@
+{
+  "model": "svm_linear",
+  "video": "test_h264.webm",
+  "fps_extract": 2,
+  "cosine_threshold": 0.9,
+  "total_frames_extracted": 193,
+  "change_frames_detected": 53,
+  "state_changes": 12,
+  "memory_bank": [
+    {
+      "time": "0:00",
+      "object": "plate",
+      "new_state": "empty",
+      "prev_state": "none",
+      "frame": 0,
+      "confidence": 0.64,
+      "timestamp_seconds": 0.0
+    },
+    {
+      "time": "0:01",
+      "object": "bowl",
+      "new_state": "with-whisked-egg",
+      "prev_state": "none",
+      "frame": 56,
+      "confidence": 0.655,
+      "timestamp_seconds": 1.87
+    },
+    {
+      "time": "0:14",
+      "object": "pan",
+      "new_state": "empty",
+      "prev_state": "none",
+      "frame": 434,
+      "confidence": 0.631,
+      "timestamp_seconds": 14.48
+    },
+    {
+      "time": "0:27",
+      "object": "pan",
+      "new_state": "with-food",
+      "prev_state": "empty",
+      "frame": 812,
+      "confidence": 0.64,
+      "timestamp_seconds": 27.09
+    },
+    {
+      "time": "0:30",
+      "object": "pan",
+      "new_state": "empty",
+      "prev_state": "with-food",
+      "frame": 924,
+      "confidence": 0.708,
+      "timestamp_seconds": 30.83
+    },
+    {
+      "time": "0:31",
+      "object": "oil",
+      "new_state": "general",
+      "prev_state": "none",
+      "frame": 938,
+      "confidence": 0.644,
+      "timestamp_seconds": 31.3
+    },
+    {
+      "time": "0:35",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "none",
+      "frame": 1064,
+      "confidence": 0.665,
+      "timestamp_seconds": 35.5
+    },
+    {
+      "time": "0:37",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1120,
+      "confidence": 0.637,
+      "timestamp_seconds": 37.37
+    },
+    {
+      "time": "0:44",
+      "object": "eggs",
+      "new_state": "whisked",
+      "prev_state": "omelette",
+      "frame": 1330,
+      "confidence": 0.364,
+      "timestamp_seconds": 44.38
+    },
+    {
+      "time": "0:45",
+      "object": "eggs",
+      "new_state": "omelette",
+      "prev_state": "whisked",
+      "frame": 1358,
+      "confidence": 0.393,
+      "timestamp_seconds": 45.31
+    },
+    {
+      "time": "0:52",
+      "object": "pan",
+      "new_state": "with-food",
+      "prev_state": "empty",
+      "frame": 1582,
+      "confidence": 0.454,
+      "timestamp_seconds": 52.79
+    },
+    {
+      "time": "1:12",
+      "object": "butter",
+      "new_state": "solid",
+      "prev_state": "none",
+      "frame": 2184,
+      "confidence": 0.636,
+      "timestamp_seconds": 72.87
+    }
+  ]
+}

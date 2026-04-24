@@ -1,0 +1,18 @@
+MEMORY BANK - test_h264
+Model: logreg
+Generated: 2026-04-24T15:30:57.034628
+Instances tracked: 5
+Total transitions: 9
+---------------------------------------------------------------------------------------------------------
+Time     | Object       | New State             | Prev State            | Frame    | Confidence
+---------------------------------------------------------------------------------------------------------
+0:00     | bowl         | with-whisked-egg      | none                  | 0        | 99.2%
+0:11     | eggs         | whisked               | none                  | 350      | 89.4%
+0:14     | pan          | empty                 | none                  | 434      | 44.9%
+0:16     | pan          | with-food             | empty                 | 490      | 97.2%
+0:30     | pan          | empty                 | with-food             | 924      | 72.2%
+0:31     | oil          | general               | none                  | 938      | 77.2%
+0:32     | pan          | with-food             | empty                 | 966      | 98.2%
+0:40     | eggs         | omelette              | whisked               | 1218     | 65.9%
+1:14     | butter       | solid                 | none                  | 2240     | 41.4%
+---------------------------------------------------------------------------------------------------------

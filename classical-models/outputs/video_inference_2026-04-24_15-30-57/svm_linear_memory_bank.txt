@@ -1,0 +1,21 @@
+MEMORY BANK - test_h264
+Model: svm_linear
+Generated: 2026-04-24T15:30:57.121869
+Instances tracked: 6
+Total transitions: 12
+---------------------------------------------------------------------------------------------------------
+Time     | Object       | New State             | Prev State            | Frame    | Confidence
+---------------------------------------------------------------------------------------------------------
+0:00     | plate        | empty                 | none                  | 0        | 64.0%
+0:01     | bowl         | with-whisked-egg      | none                  | 56       | 65.5%
+0:14     | pan          | empty                 | none                  | 434      | 63.1%
+0:27     | pan          | with-food             | empty                 | 812      | 64.0%
+0:30     | pan          | empty                 | with-food             | 924      | 70.8%
+0:31     | oil          | general               | none                  | 938      | 64.4%
+0:35     | eggs         | whisked               | none                  | 1064     | 66.5%
+0:37     | eggs         | omelette              | whisked               | 1120     | 63.7%
+0:44     | eggs         | whisked               | omelette              | 1330     | 36.4%
+0:45     | eggs         | omelette              | whisked               | 1358     | 39.3%
+0:52     | pan          | with-food             | empty                 | 1582     | 45.4%
+1:12     | butter       | solid                 | none                  | 2184     | 63.6%
+---------------------------------------------------------------------------------------------------------
